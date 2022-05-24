@@ -26,8 +26,8 @@
 
 
                <div class="d-flex">
-                <button class="bg-yellow-btn mr-3 w-footer-sign-in-width rounded">Sign Up</button>
-                <button>Book a demo</button>
+                <button class="bg-yellow-btn mr-3 w-footer-sign-in-width rounded text-blue-txt font-weight800 text-btn-font-size h-btn-hight">Sign Up</button>
+                <button class="text-btn-font-size font-weight800 border-2 border-btn-yellow text-yellow-txt rounded w-footer-sign-in-width h-btn-hight">Book a demo</button>
                </div>
             </div>
            

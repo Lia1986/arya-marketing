@@ -23,6 +23,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    {src: 'plugins/owl.js', ssr: false}
     
   ],
 
@@ -31,7 +32,7 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    '@nuxt/postcss8',
+    '@nuxt/postcss8','@nuxtclub/feathericons'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
