@@ -1,0 +1,16 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 14.x
+
+  build:
+    commands:
+      - "npm install"
+      - "npm run generate"
+
+artifacts:
+  base-directory: dist
+  files:
+    - "**/*"
