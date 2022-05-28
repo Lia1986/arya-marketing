@@ -1,7 +1,7 @@
 <template>
     <footer>
         <div class="bg-main_bg_color pt-footer-pd-top pb-footer-pd-bottem">
-            <div class="w-content-width mx-auto">
+            <div class="w-content-width 2xl:w-80 mx-auto">
             <div class="d-flex items-center justify-between pb-footer-logo-row">
                 <div class="pr-logo-right-pd ">
                 <img src="@/assets/icons/logo.svg" alt="" class="w-footer-logo-width">
@@ -26,9 +26,10 @@
 
 
                <div class="d-flex">
-                <button class="bg-yellow-btn mr-3 w-footer-sign-in-width rounded text-blue-txt font-weight800 text-btn-font-size h-btn-hight">Sign Up</button>
-                <button class="text-btn-font-size font-weight800 border-2 border-btn-yellow text-yellow-txt rounded w-footer-sign-in-width h-btn-hight">Book a demo</button>
+                <button class="bg-yellow-btn mr-3 w-footer-sign-in-width rounded text-blue-txt font-weight800 text-btn-font-size h-signin-btn">Sign Up</button>
+                <button class="text-btn-font-size font-weight800 border-2 border-btn-yellow text-yellow-txt rounded w-footer-sign-in-width h-signin-btn">Book a demo</button>
                </div>
+               <!-- <div v-html="$feathericons['home'].toSvg()" class="fill"></div> -->
             </div>
            
         </div>

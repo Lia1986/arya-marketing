@@ -1,25 +1,26 @@
 <template>
-  <div class="pb-6 mt-sm">
+  <div class="mt-sm">
     <div
-      class="mx-auto d-flex items-center justify-between relative  pt-header-section-spaces pb-header-section-bottom bg-main_bg_color">
-      <div class="img-section w-header-width1 ">
-        <img src="@/assets/images/header-image.png" alt="" class="absolute top-img-top">
+      class="mx-auto d-flex items-end justify-between relative  pt-header-section-spaces lg:pt-100 md:pt-60 sm:pt-26 bg-main_bg_color">
+      <div class="img-section w-header-width1 relative">
+        <img src="@/assets/images/header-image.png" alt="" class="absolute  w-80 bottom-43">
       </div>
-      <div class="txt-section uppercase text-white w-header-width2">
-        <h1 class="leading-header-txt font-weight800 pb-header-txt-padding text-header-txt w-header-p">
-          Dynamic compensation to <span class="text-yellow-txt">attract</span> Today's Dynamic Workforce retain motivate
+      <div class="txt-section uppercase text-white w-header-width2 pb-header-section-bottom 2xl-pt-100 2xl:pb-60">
+        <h1 class="2xl-leading-52 font-weight800 pb-header-txt-padding text-header-txt  2xl:text-48 xl:text-36 lg:text-32 md:text-32  w-header-p lg:w-80">
+          Dynamic compensation to <span class="text-yellow-txt">
+            
+            {{ inputValue }}
+          </span> Today's Dynamic Workforce retain motivate
         </h1>
-        <button
-          class="bg-yellow-btn rounded border-2 mr-3 border-btn-yellow w-header-btn py-header-btn-padding uppercase text-blue-txt font-weight800 text-btn-font-size">REQUEST
+        <button class="bg-yellow-btn rounded border-2 mr-3 border-btn-yellow w-header-btn py-header-btn-padding 2xl:text-18 2xl:py-15 uppercase text-blue-txt font-weight800 text-btn-font-size">REQUEST
           A DEMO</button>
-        <button
-          class="border-2 border-btn-yellow text-yellow-txt rounded w-header-btn py-header-btn-padding uppercase font-weight800 text-btn-font-size">try
+        <button class="border-2 border-btn-yellow text-yellow-txt rounded w-header-btn py-header-btn-padding uppercase font-weight800 text-btn-font-size 2xl:py-15 2xl:text-18">try
           arya</button>
 
       </div>
     </div>
     <div class="bg-light-secton pt-logo-right-pd">
-      <div class="w-content-width mx-auto">
+      <div class="w-content-width 2xl:w-80 mx-auto">
         <h2 class="text-center text-title-color text-title-size font-weight800 pb-title-padding">TRUSTED BY OPERATIONS
           TEAMS AT</h2>
 
@@ -44,16 +45,16 @@
         </no-ssr>
 
         <h3
-          class="text-center text-title-color text-48 title-size font-weight600 pb-title-padding leading-56 w-780 mx-auto pt-header-section-spaces pb-footer-pd-top">
+          class="text-center text-title-color text-48 2xl:text-32 title-size font-weight600 pb-title-padding 2xl: leading-56 w-780 mx-auto pt-header-section-spaces pb-footer-pd-top">
           Build smarter compensation, incentives and rewards that delight both your flex workforce and CEO</h3>
-        <div class="w-content-width mx-auto">
+        <div class="w-content-width 2xl:w-80 mx-auto">
           <div class="d-flex">
-            <div class="pr-210 w-50"><img src="@/assets/images/image1.png" alt=""></div>
+            <div class="pr-60 w-50"><img src="@/assets/images/image1.png" alt=""></div>
             <div class="w-50 d-flex flex-col justify-center">
-              <h3 class="text-blue-txt leading-43 font-weight800 text-32 uppercase pb-27">
+              <h3 class="text-blue-txt leading-43 font-weight800 text-32 uppercase pb-27 2xl:text-28">
                 A Real-time Pulse<br> OF YOUR WORKFOCE
               </h3>
-              <p class="text-26 text-title-color pr-5">Dynamic compensation starts with dynamic data. With powerful API
+              <p class="text-26 2xl:text-22 text-title-color pr-5">Dynamic compensation starts with dynamic data. With powerful API
                 and hundreds of pre-built integrations into HRIS, CRMs, get up-to-the-minute visibility into the value
                 your talent is creating at work.</p>
             </div>
@@ -62,24 +63,24 @@
 
           <div class="d-flex pt-footer-pd-bottem">
             <div class="w-50 d-flex flex-col justify-center">
-              <h3 class="text-blue-txt leading-43 font-weight800 text-32 uppercase pb-27">
+              <h3 class="text-blue-txt leading-43 font-weight800 text-32 2xl:text-28 uppercase pb-27">
                 Infinite Flexibility in How <br> You Value and Pay for Work, <br> Without Any of the Effort
               </h3>
-              <p class="text-26 text-title-color">Dynamic compensation starts with dynamic data. With powerful API and
+              <p class="text-26 2xl:text-22 text-title-color">Dynamic compensation starts with dynamic data. With powerful API and
                 hundreds of pre-built integrations into HRIS, CRMs, get up-to-the-minute visibility into the value your
                 talent is creating at work.</p>
             </div>
-            <div class="w-50 pl-210"><img src="@/assets/images/image2.png" alt=""></div>
+            <div class="w-50 pl-60"><img src="@/assets/images/image2.png" alt=""></div>
           </div>
 
 
           <div class="d-flex pt-footer-pd-bottem">
             <div class="pr-210 w-50"><img src="@/assets/images/image3.png" alt=""></div>
-            <div class="w-50 d-flex flex-col justify-center">
-              <h3 class="text-blue-txt leading-43 font-weight800 text-32 uppercase pb-27">
+            <div class="w-50 d-flex flex-col justify-center pl-60">
+              <h3 class="text-blue-txt leading-43 font-weight800 text-32 uppercase pb-27 2xl:text-28">
                 Powerful Choice <br>for Your Workforce
               </h3>
-              <p class="text-26 text-title-color pr-5">Allow your workforce to convert the value it creates into a
+              <p class="text-26 2xl:text-22 text-title-color pr-5">Allow your workforce to convert the value it creates into a
                 paycheck, cash and gift cards, benefits and perks, equity, and a host of other financial and
                 non-financial instruments, all through a single integration with Arya.</p>
             </div>
@@ -87,14 +88,15 @@
 
           <div class="d-flex pt-footer-pd-bottem pb-footer-pd-bottem">
             <div class="w-50 d-flex flex-col justify-center">
-              <h3 class="text-blue-txt leading-43 font-weight800 text-32 uppercase pb-27">
+              <h3 class="text-blue-txt leading-43 font-weight800 text-32 uppercase pb-27 2xl:text-28">
                 Never Wonder <br>"Is It Working?" Again
               </h3>
-              <p class="text-26 text-title-color">With out-of-the-box analytics to observe compensation from
+              <p class="text-26 2xl:text-22 text-title-color">With out-of-the-box analytics to observe compensation from
                 achievement-to-redemption, and to measure the resulting changes in behaviors, Arya helps take the
                 guesswork out of understanding what’s working and what needs tweaking.</p>
             </div>
-            <div class="w-50 pl-210"><img src="@/assets/images/image4.png" alt=""></div>
+            <div class="w-50 pl-60">
+              <img src="@/assets/images/image4.png" alt=""></div>
           </div>
         </div>
       </div>
@@ -103,9 +105,9 @@
 
     </div>
    <div class="bg-main_bg_color pt-6">
-    <div class="w-content-width mx-auto pt-100 ">
-       <h4 class="text-yellow-txt text-48 font-weight600">DIY compensation management, <br>Finally, a better alternative!</h4>
- <VueSlickCarousel :autoplay="false" :focusOnSelect="true" :arrows="false">
+    <div class="w-content-width 2xl:w-80 mx-auto pt-100 ">
+       <h4 class="text-yellow-txt text-48 2xl:text-36 font-weight600">DIY compensation management, <br>Finally, a better alternative!</h4>
+ <VueSlickCarousel :autoplay="true" :focusOnSelect="true" :arrows="false" :dots="true" :autoplaySpeed="2000" :speed="2000" :fade="true">
     <div class="">
      <div class="d-flex items-center pb-6 ">
         <div class="w-50 ">
@@ -143,13 +145,13 @@
 
 
     <div class="bg-light-secton pt-footer-pd-bottem">
-      <div class="w-content-width mx-auto">
-        <div class="text-48 text-title-color text-title-size font-weight800 pb-title-padding">Get more dynamic, fast.
+      <div class="w-content-width 2xl:w-80 mx-auto pb-footer-pd-bottem">
+        <div class="text-48 text-title-color text-title-size font-weight800 pb-title-padding 2xl:text-36">Get more dynamic, fast.
         </div>
         <p class="weight500 w-68 pb-footer-pd-bottem text-title-color text-title-size">Automate your own compensation,
           incentives and rewards strategy in minutes, or choose from pre-build Dynamic Compensation playbooks proven to
           help attract, motivate and engage talent.</p>
-        <div class="d-flex">
+        <div class="d-flex h-830">
           <div>
             <div v-for="item in playbooks" :bind="item.name">
               <div class="playbook-nav-item d-flex items-center	flex-col justify-center rounded-8"
@@ -162,7 +164,7 @@
           </div>
           <div>
             <div class="d-flex align-center justify-center border-1 border-box-gray">
-              <div class="playbook-item px-3 py-3  rounded-8">
+              <div class="playbook-item px-3 py-3 rounded-8">
                 <play-book-card :item="playbooks.find(x => x.name === activePlaybook)" :row="0" />
               </div>
 
@@ -189,9 +191,62 @@
           </div>
         </div>
       </div>
+      <div class="w-content-width 2xl:w-80 mx-auto">
+          <h3 class="pb-footer-pd-top text-title-color font-weight800 text-title-size text-center">WE POWER OPERATIONS TEAMS THAT POWER THE FUTURE OF WORK</h3>
+      </div>
+      <div class="bg-slide-bg-color pt-76 pb-96">
+        <div class="w-content-width 2xl:w-80 mx-auto testimonials-slider">
+        <VueSlickCarousel :focusOnSelect="true" :arrows="true" :dots="false">
+  
+     
+        <div class="d-flex items-center">
+         <div class="w-30">
+           <img src="@/assets/images/testimonilas-img1.png" alt="" class="rounded-full border-8 border-solid border-white w-233 m-auto">
+         </div>
+         <div class="m-auto w-70">
+           <p class="font-weight500 text-26 2xl:text-22 text-title-color">The Arya team's knowledge base regarding incentive compensation has proved critical as we've experimented with and evolved our clinician payroll processes</p>
+           <p class="pb-26 pt-20 text-title-size"><span class="font-weight700">Matt Harb,</span><span class="font-weight500"> Senior Product Manager, Bellhop</span></p>
+           <img src="@/assets/images/steadymd.png" alt="" class="max-w-226 testimonials-slide-img">
+         </div>
+        </div>
 
+       <div class="d-flex items-center">
+         <div class="w-30">
+           <img src="@/assets/images/testimonilas-img2.png" alt="" class="rounded-full border-8 border-solid border-white w-233 m-auto">
+         </div>
+         <div class="m-auto w-70">
+           <p class="font-weight500 text-26 2xl:text-22 2xl:pr-60 text-title-color">"The team at Arya has deep expertise around incentives that drive alignment between my company and my workforce. By far the best aspect is the level of service they provide"</p>
+           <p class="pb-26 pt-20 text-title-size"><span class="font-weight700">Shanna Johnson,</span><span class="font-weight500"> Chief Executive Officer at Cielo24</span></p>
+           <img src="@/assets/images/cielo.png" alt="" class="max-w-226 testimonials-slide-img">
+         </div>
+        </div>
+
+        <div class="d-flex items-center">
+         <div class="w-30">
+           <img src="@/assets/images/testimonilas-img2.png" alt="" class="rounded-full border-8 border-solid border-white w-233 m-auto">
+         </div>
+         <div class="m-auto w-70">
+           <p class="font-weight500 text-26 2xl:text-22 2xl:pr-60 text-title-color">The Arya team's knowledge base regarding incentive compensation has proved critical as we've experimented with and evolved our clinician payroll processes</p>
+           <p class="pb-26 pt-20 text-title-size"><span class="font-weight700">Anna Pearl W, </span><span class="font-weight500">Director of Special Projects at SteadyMD</span></p>
+           <img src="@/assets/images/steadymd.png" alt="" class="max-w-226 testimonials-slide-img">
+         </div>
+        </div>
+        </VueSlickCarousel>
+      </div>
+      </div>
+     
+    <div class="bg-light-secton pt-150 pb-610">
+      <h4 class="uppercase pb-footer-pd-top text-title-color font-weight800 text-title-size text-center">
+        frequently asked questions
+      </h4>
+       <div class="w-content-width 2xl:w-80 mx-auto">
+         <div v-for="(data,index) in faq" :bind="data.question" class="opene_collapse">
+        <collapse :data="data" :id="index"/>
+     </div>
+       </div>
     </div>
-
+    
+    </div>
   </div>
 
 
@@ -199,13 +254,16 @@
 
 <script>
 import PlayBookCard from '../components/PlayBookCard'
+import Collapse from '../components/Collapse'
 import VueSlickCarousel from 'vue-slick-carousel'
 import 'vue-slick-carousel/dist/vue-slick-carousel.css'
 export default {
   name: 'IndexPage',
-  components: { PlayBookCard, VueSlickCarousel },
+  components: { PlayBookCard, Collapse, VueSlickCarousel },
   data() {
     return {
+      attractArray: ['Attract', 'Retain', 'Motivate'],
+      inputValue: 'attract',
       "activePlaybook": "Attract",
       "playbooks": [
         {
@@ -265,19 +323,67 @@ export default {
           ]
         },
 
+      ],
+      "faq":[
+        {
+          "question": "What is “Dynamic Compensation”?",
+          "answer" : "Dynamic compensation is a new field that refers to the real-time ability to “flex” compensation, incentives and rewards for workforces in order to meet business goals. This can mean different things for different companies, ranging from being able to automatically offer different base hourly compensation based on region, tenure and volume of work, to creating incentives needed to balance workforce supply to customer demand, to creating programs that reward the workforce for going above and beyond in delivering exceptional customer experiences."
+        },
+        {
+          "question": "What are the different ways in which I can pay people through Arya?",
+          "answer" : "Dynamic compensation is a new field that refers to the real-time ability to “flex” compensation, incentives and rewards for workforces in order to meet business goals. This can mean different things for different companies, ranging from being able to automatically offer different base hourly compensation based on region, tenure and volume of work, to creating incentives needed to balance workforce supply to customer demand, to creating programs that reward the workforce for going above and beyond in delivering exceptional customer experiences."
+        },
+        {
+          "question": "How does pricing work?",
+          "answer" : "Dynamic compensation is a new field that refers to the real-time ability to “flex” compensation, incentives and rewards for workforces in order to meet business goals. This can mean different things for different companies, ranging from being able to automatically offer different base hourly compensation based on region, tenure and volume of work, to creating incentives needed to balance workforce supply to customer demand, to creating programs that reward the workforce for going above and beyond in delivering exceptional customer experiences."
+        },
+        {
+          "question": "Does Arya replace Payroll systems?",
+          "answer" : "Dynamic compensation is a new field that refers to the real-time ability to “flex” compensation, incentives and rewards for workforces in order to meet business goals. This can mean different things for different companies, ranging from being able to automatically offer different base hourly compensation based on region, tenure and volume of work, to creating incentives needed to balance workforce supply to customer demand, to creating programs that reward the workforce for going above and beyond in delivering exceptional customer experiences."
+        },
+        {
+          "question": "What integrations do you support?",
+          "answer" : "Dynamic compensation is a new field that refers to the real-time ability to “flex” compensation, incentives and rewards for workforces in order to meet business goals. This can mean different things for different companies, ranging from being able to automatically offer different base hourly compensation based on region, tenure and volume of work, to creating incentives needed to balance workforce supply to customer demand, to creating programs that reward the workforce for going above and beyond in delivering exceptional customer experiences."
+        },
+        {
+          "question": "How long does it typically take to integrate with Arya?",
+          "answer" : "Dynamic compensation is a new field that refers to the real-time ability to “flex” compensation, incentives and rewards for workforces in order to meet business goals. This can mean different things for different companies, ranging from being able to automatically offer different base hourly compensation based on region, tenure and volume of work, to creating incentives needed to balance workforce supply to customer demand, to creating programs that reward the workforce for going above and beyond in delivering exceptional customer experiences."
+        },
+        {
+          "question": "Do you offer any free trials?",
+          "answer" : "Dynamic compensation is a new field that refers to the real-time ability to “flex” compensation, incentives and rewards for workforces in order to meet business goals. This can mean different things for different companies, ranging from being able to automatically offer different base hourly compensation based on region, tenure and volume of work, to creating incentives needed to balance workforce supply to customer demand, to creating programs that reward the workforce for going above and beyond in delivering exceptional customer experiences."
+        },
       ]
+    }
+  },
+  computed: {
+    attractValue() {
+      for (let index = 0; index < this.attractArray.length; index++) {
+      setTimeout(() => {this.inputValue = this.attractArray[index]}, 500)        
+      }
     }
   },
   methods: {
     changeTab(value) {
       this.activePlaybook = value
     }
+  },
+  mounted() {
+    let a = 0
+    setInterval(() => {
+      this.inputValue = this.attractArray[a]
+      if (a < this.attractArray.length - 1) {
+        a ++
+      } else {
+        a = 0
+      }
+    }, 1000)
   }
 }
 
 
 </script>
-<style>
+<style >
 /* .fill svg{
   fill: green; 
   color: red
@@ -312,7 +418,7 @@ export default {
 
 .playbook-item {
   width: 420px;
-  /* height: 180px; */
+  height: 405px;
   border: 2px solid #E6E6E6;
   margin-bottom: 20px;
   margin-right: 20px;
@@ -344,5 +450,127 @@ export default {
 .playbook-item button .fill {
    color: #00448D; 
 }
+
+.slick-dots {
+  display: flex !important;
+  justify-content: center;
+
+
+}
+.slick-dots li {
+  
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 93px;
+  margin-top: 53px;
+  border: 1px solid #FFC800;
+  background: transparent;
+  color: transparent;
+}
+
+.slick-dots .slick-active {
+ background: #FFC800;
+}
+.testimonials-slider .slick-slider {
+  display: flex !important;
+}
+.slick-prev::before {
+   content: '\003C';
+   display: block;
+   font-size: 50px;
+   color: #9F9F9F;
+   
+}
+.slick-next::after {
+   content: '\003E';
+   display: block;
+   font-size: 50px;
+   color: #9F9F9F;
+   
+}
+.slick-prev, .slick-next {
+  color: transparent;
+}
+.testimonials-slide-img {
+object-fit: none;
+}
+
+.collapsed, .not-collapsed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px !important;
+  background-color: transparent;
+  border-radius: 6px !important;
+  border: unset;
+  
+  
+}
+
+.not-collapsed {
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+color: #0266D1 !important;
+background: transparent !important;
+border: unset;
+
+}
+.opene_collapse {
+   margin: 10px 0;
+   border: 1px solid #666666;
+   border-radius: 6px;
+}
+
+.collapsed {
+   color: #666666;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 25px;
+
+
+
+}
+.collapse  {
+  padding: 0px 20px 20px 20px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #666666;
+
+}
+
+.btn-secondary:focus, .btn-secondary:hover {
+  box-shadow: unset;
+  background: transparent;
+  color: #666666;
+}
+.btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .show > .btn-secondary.dropdown-toggle {
+
+background: transparent;
+color: #666666;
+
+
+}
+
+.btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus, .show > .btn-secondary.dropdown-toggle:focus {
+  box-shadow: unset;
+  color: #666666;
+}
+
+@media only screen and (max-width: 1700px) {
+  .playbook-item {
+   width: 50%;
+  }
+}
+
+
+
+
+
 
 </style>

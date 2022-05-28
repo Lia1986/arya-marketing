@@ -16,7 +16,7 @@
     </div>
 
     <div>
-        <button class="d-flex bg-btn-bckg py-3 px-4 rounded-8 font-weight600 text-18"> 
+        <button class="d-flex bg-btn-bckg py-3 2xl:py-10 px-4 rounded-8 font-weight600 text-18"> 
             Customize
             <span class="fill" v-html="$feathericons['chevron-right'].toSvg()" />
         </button>
