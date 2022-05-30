@@ -110,7 +110,7 @@
    <div class="bg-main_bg_color pt-6">
     <div class="w-content-width 2xl:w-80 mx-auto pt-100">
        <h4 class="text-yellow-txt px-4 text-48 2xl:text-32 2xl:pb-60 font-weight600">DIY compensation management, <br>Finally, a better alternative!</h4>
- <VueSlickCarousel :autoplay="false" :focusOnSelect="true" :arrows="false" :dots="true" :autoplaySpeed="2000" :speed="2000">
+ <VueSlickCarousel :autoplay="true" :focusOnSelect="true" :arrows="false" :dots="true" :autoplaySpeed="2000" :speed="2000">
     <div class="px-4">
      <div class="d-flex items-center pb-6 ">
         <div class="w-50 ">
@@ -199,7 +199,7 @@
       </div>
       <div class="bg-slide-bg-color 4xl:bg-mobile-bg-color pt-76 pb-96">
         <div class="w-content-width 2xl:w-80 mx-auto testimonials-slider">
-        <VueSlickCarousel :focusOnSelect="true" :arrows="true" :dots="false" :autoplay="false" :autoplaySpeed="2000" :speed="2000">
+        <VueSlickCarousel :focusOnSelect="true" :arrows="true" :dots="false" :autoplay="true" :autoplaySpeed="2000" :speed="2000">
   
      
         <div class="d-flex items-center">
