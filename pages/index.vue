@@ -8,22 +8,25 @@
       <div>
          <img src="@/assets/images/mobile-hero-img.png" alt="" class="mobile-hero-img">
       </div>
-      <div class="txt-section uppercase text-white w-header-width2 pb-header-section-bottom 2xl-pt-100 2xl:pb-60 3xl:w-70 3xl:text-centerc 3xl:d-flex 3xl:flex-col 3xl:items-center">
-        <h1 class="2xl-leading-52 font-weight800 pb-header-txt-padding text-header-txt  xl:text-48 lg:text-36 md:text-32 sm:text-32  w-header-p xl:w-80 3xl:w-100">
+      <div class="txt-section uppercase text-white w-header-width2 pb-header-section-bottom 2xl-pt-100 2xl:pb-60 3xl:w-70 5xl:w-90 3xl:text-centerc 3xl:d-flex 3xl:flex-col 3xl:items-center 5xl:w-90 5xl:text-center">
+        <h1 class="2xl-leading-52 font-weight800 pb-header-txt-padding sm:pb-60 text-header-txt  xl:text-48 lg:text-36 md:text-32 sm:text-24  w-header-p xl:w-80 3xl:w-100">
           Dynamic compensation to <span class="text-yellow-txt inline-block">
             
             {{ inputValue }}
           </span><br> Today's Dynamic Workforce retain motivate
         </h1>
-        <button class="bg-yellow-btn rounded border-2 mr-3 border-btn-yellow w-header-btn h-62 2xl:text-18 2xl:py-15 uppercase text-blue-txt font-weight800 text-btn-font-size 3xl:h-54 d-flex items-center justify-center">REQUEST
+        <button class="desktop-request-demo bg-yellow-btn rounded border-2 mr-3 border-btn-yellow w-header-btn h-62 2xl:text-18 2xl:py-15 uppercase text-blue-txt font-weight800 text-btn-font-size 3xl:h-54 d-flex items-center justify-center">REQUEST
           A DEMO</button>
         <!-- <button class="border-2 border-btn-yellow text-yellow-txt rounded w-header-btn py-header-btn-padding uppercase font-weight800 text-btn-font-size 2xl:py-15 2xl:text-18">try
           arya</button> -->
 
       </div>
     </div>
-    <div class="bg-light-secton pt-logo-right-pd">
+    <div class="bg-light-secton pt-logo-right-pd 5xl:pt-40">
+       
       <div class="w-content-width 2xl:w-80 mx-auto">
+        <button class="5xl:mb-40 w-100 mobile-request-demo bg-yellow-btn rounded border-2 mr-3 border-btn-yellow w-header-btn h-62 2xl:text-18 2xl:py-15 uppercase text-blue-txt font-weight800 text-btn-font-size 3xl:h-54 d-flex items-center justify-center">REQUEST
+          A DEMO</button>
         <h2 class="text-center text-title-color text-title-size font-weight800 pb-title-padding">TRUSTED BY OPERATIONS
           TEAMS AT</h2>
 
@@ -34,11 +37,10 @@
            
 
           </carousel> -->
-          <VueSlickCarousel :autoplay="true" :dots="false" :items="6" :focusOnSelect="true" :slidesToShow="5" :arrows="false" :autoplaySpeed="2000" :speed="2000"
-            :infinite="true" >
+          <VueSlickCarousel v-bind="brand">
             <img src="@/assets/images/bellhop.png" alt="" class="w-trusted-by mx-4">
-            <img src="@/assets/images/steadymd.png" alt="" class="w-trusted-by mx-4">
-            <img src="@/assets/images/smartling.png" alt="" class="w-trusted-by mx-4">
+            <img src="@/assets/images/steadymd.png" alt="" class="w-trusted-by  mx-4">
+            <img src="@/assets/images/smartling.png" alt="" class="w-trusted-b mx-4">
             <img src="@/assets/images/cielo.png" alt="" class="w-trusted-by mx-4">
              <img src="@/assets/images/style.png" alt="" class="w-trusted-by mx-4">
             <img src="@/assets/images/woodSpoon.png" alt="" class="w-trusted-by mx-4">
@@ -48,10 +50,10 @@
         </no-ssr>
 
         <h3
-          class="text-center text-title-color text-48 2xl:text-32 title-size font-weight600 pb-footer-pd-top 2xl: leading-56 w-780 3xl:w-60 3xl:leading-46 mx-auto pt-footer-pd-bottem 3xl:pt-76">
+          class="text-center text-title-color text-48 md:text-32 4xl:text-24 title-size font-weight600 pb-footer-pd-top 2xl: leading-56 4xl:leading-32 w-780 3xl:w-100 3xl:leading-46 mx-auto pt-footer-pd-bottem 3xl:pt-76">
           Build smarter compensation, incentives and rewards that delight both your flex workforce and CEO</h3>
         <div class="w-content-width 2xl:w-100 mx-auto">
-          <div class="d-flex">
+          <div class="d-flex 4xl:items-center">
             <div class="pr-60 w-50"><img src="@/assets/images/image1.png" alt=""></div>
             <div class="w-50 d-flex flex-col justify-center">
               <h3 class="text-blue-txt leading-43 2xl:leading-34 font-weight800 text-32 uppercase pb-27 2xl:text-24">
@@ -64,7 +66,7 @@
           </div>
 
 
-          <div class="d-flex pt-footer-pd-bottem">
+          <div class="d-flex 4xl:items-center pt-footer-pd-bottem">
             <div class="w-50 d-flex flex-col justify-center">
               <h3 class="text-blue-txt leading-43 font-weight800 text-32 2xl:text-24 2xl:leading-34 uppercase pb-27">
                 Infinite Flexibility in How <br> You Value and Pay for Work, <br> Without Any of the Effort
@@ -77,7 +79,7 @@
           </div>
 
 
-          <div class="d-flex pt-footer-pd-bottem">
+          <div class="d-flex 4xl:items-center pt-footer-pd-bottem">
             <div class="pr-210 w-50"><img src="@/assets/images/image3.png" alt=""></div>
             <div class="w-50 d-flex flex-col justify-center pl-60">
               <h3 class="text-blue-txt leading-43 2xl:leading-34 font-weight800 text-32 uppercase pb-27 2xl:text-24">
@@ -89,7 +91,7 @@
             </div>
           </div>
 
-          <div class="d-flex pt-footer-pd-bottem pb-footer-pd-bottem">
+          <div class="d-flex 4xl:items-center pt-footer-pd-bottem pb-footer-pd-bottem">
             <div class="w-50 d-flex flex-col justify-center">
               <h3 class="text-blue-txt leading-43 2xl:leading-34 font-weight800 text-32 uppercase pb-27 2xl:text-24">
                 Never Wonder <br>"Is It Working?" Again
@@ -110,7 +112,7 @@
    <div class="bg-main_bg_color pt-6">
     <div class="w-content-width 2xl:w-80 mx-auto pt-100">
        <h4 class="text-yellow-txt px-4 text-48 2xl:text-32 2xl:pb-60 font-weight600">DIY compensation management, <br>Finally, a better alternative!</h4>
- <VueSlickCarousel :autoplay="true" :focusOnSelect="true" :arrows="false" :dots="true" :autoplaySpeed="2000" :speed="2000">
+      <VueSlickCarousel v-bind="settings">
     <div class="px-4">
      <div class="d-flex items-center pb-6 ">
         <div class="w-50 ">
@@ -248,8 +250,7 @@
      </div>
        </div>
     </div>
-    
-    </div>
+</div>
   </div>
 
 
@@ -265,6 +266,60 @@ export default {
   components: { PlayBookCard, Collapse, VueSlickCarousel },
   data() {
     return {
+      settings:{
+        autoplay:true,
+        focusOnSelect:true,
+        arrows:false,
+        dots:true,
+        autoplaySpeed:2000,
+        speed:2000
+      },
+      brand:{
+        autoplay:true,
+        focusOnSelect:true,
+        arrows:false,
+        dots:false,
+        autoplaySpeed:2000,
+        speed:2000,
+        slidesToShow: 5,
+        items: 6,
+
+        "responsive": [
+          {
+      "breakpoint": 1400,
+      "settings": {
+        "slidesToShow": 4,
+        "slidesToScroll": 4,
+       
+        
+      }
+    },
+    {
+      "breakpoint": 1140,
+      "settings": {
+        "slidesToShow": 3,
+        "slidesToScroll": 3,
+       
+        
+      }
+    },
+    {
+      "breakpoint": 600,
+      "settings": {
+        "slidesToShow": 3,
+        "slidesToScroll": 3,
+       
+      }
+    },
+    {
+      "breakpoint": 460,
+      "settings": {
+        "slidesToShow": 3,
+        "slidesToScroll": 3
+      }
+    }
+  ]
+      },
       attractArray: ['Attract', 'Retain', 'Motivate'],
       inputValue: 'attract',
       "activePlaybook": "Attract",
@@ -568,6 +623,9 @@ color: #666666;
 .mobile-hero-img {
   display: none;
 }
+.mobile-request-demo {
+  display: none !important;
+}
 @media only screen and (max-width: 990px) {
   .mobile-hero-img {
    display: block;
@@ -636,6 +694,7 @@ color: #666666;
     border: unset;
   }
  
+ 
   }
    @media only screen and (max-width: 768px) {
      .testimonials-slider img {
@@ -648,20 +707,26 @@ color: #666666;
      .testimonials-slider span {
          display: block;
       }
+      .w-trusted-by {
+    width: 102px !important;
+  
+}
+    
+     
    }
- @media only screen and (max-width: 460px) {
+    @media only screen and (max-width: 460px) {
       .testimonials-slide-img {
      width: 74px;
      }
-    
-     
- }
+      .mobile-request-demo {
+        display: block !important;
+}
+    .mobile-nva-menu .fill svg{
+       color: #ffffff;
+     }
+       .desktop-request-demo {
+        display: none !important;
+      }
+    }
    
-   
-
-
-
-
-
-
-</style>
+   </style>
