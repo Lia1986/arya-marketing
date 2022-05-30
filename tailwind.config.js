@@ -10,7 +10,7 @@ module.exports = {
     extend: {
       padding: {
         'nav': '48px',
-        'logo-right-pd': '97px',
+        'logo-right-pd': '94px',
         'footer-pd-top': '82px',
         'footer-pd-bottem': '142px',
         'footer-logo-row': '75px',
@@ -29,10 +29,14 @@ module.exports = {
         '26': '26px',
         '10': '10px',
         '150': '150px',
-        '610': '610px'
+        '610': '610px',
+        '0': '0px',
+        '5': '5px',
       },
       margin: {
         'sm': '-1px',
+        '20': '20px',
+        
         
       },
      
@@ -44,6 +48,7 @@ module.exports = {
         'light-secton': '#F6F7F8',
         'btn-bckg': '#EEEEEE',
         'slide-bg-color': '#EAEEF1',
+        'mobile-bg-color': '#ffffff',
       },
      width: {
         'content-width': '1200px',
@@ -60,12 +65,22 @@ module.exports = {
         '780': '780px',
         '68': '68%',
         '60': '60px',
+        '82': '82px',
         '233': '233px',
         '226': '226px',
         '30': '30%',
         "60": '60%',
         '70': '70%',
-        '80': '80%'
+        '80': '80%',
+        '100': '100%',
+        '350': '350px',
+        '235': '235px',
+        '174': '174px',
+        '150': '150px',
+        '130': '130px',
+        '116': '116px',
+        '32': '32px'
+        
         
       },
       maxWidth: {
@@ -78,11 +93,13 @@ module.exports = {
         '18': '18px',
         '26': '26px',
         '22': '22px',
-        '24': '2px',
+        '24': '24px',
         '28': '28px',
         '48': '48px',
         '36': '36px',
         '32': '32px',
+        '16': '16px',
+        '14': '14px',
         
         
        
@@ -106,12 +123,18 @@ module.exports = {
       height: {
         'signin-btn': '52px',
         '830': '830px',
+        '62': '62px',
+        '54': '54px',
+        '44': '44px',
         },
+
       lineHeight: {
         'header-txt': '71px',
         '56': '56px',
+        '46': '46px',
         '43': '43px',
         '30': '30px',
+        '34': '34px',
         
       }, 
       borderRadius: {
@@ -125,20 +148,24 @@ module.exports = {
         '43': '-40px',
       },
       screens: {
-      'sm': {'min': '640px', 'max': '767px'},
+      'sm': {'min': '340px', 'max': '767px'},
       // => @media (min-width: 640px and max-width: 767px) { ... }
 
-      'md': {'min': '768px', 'max': '1023px'},
-      // => @media (min-width: 768px and max-width: 1023px) { ... }
+      'md': {'min': '768px', 'max': '1200px'},
+      // => @media (min-width: 768px and max-width: 1200px) { ... }
 
-      'lg': {'min': '991px', 'max': '1279px'},
-      // => @media (min-width: 1024px and max-width: 1279px) { ... }
+      'lg': {'min': '1200px', 'max': '1500px'},
+      // => @media (min-width: 1200px and max-width: 1500px) { ... }
 
-      'xl': {'min': '1280px', 'max': '1535px'},
-      // => @media (min-width: 1280px and max-width: 1535px) { ... }
+      'xl': {'min': '1500px', 'max': '1700px'},
+      // => @media (min-width: 1700px and max-width: 1920px) { ... }
 
-      '2xl': {'min': '1536px'},
-      // => @media (min-width: 1536px) { ... }
+      '2xl': {'min': '340px', 'max': '1500px'},
+      // => @media (min-width: 1920px) { ... }
+      '3xl': {'min': '340px', 'max': '990px'},
+      // => @media (min-width: 1920px) { ... }
+      '4xl': {'min': '340px', 'max': '768px'},
+      // => @media (min-width: 1920px) { ... }
       },
       
     },

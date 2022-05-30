@@ -6,15 +6,13 @@
             <div class="">
                 <img src="@/assets/icons/logo.svg" alt="">
             </div>
-            <div class="w-nav-items d-flex justify-between px-10">
-                <a href="" class="uppercase text-white">Platform</a>
-                <a href="" class="uppercase text-white">why arya</a>
-                <a href="" class="uppercase text-white">about us</a>
-                <!-- <a href="" class="uppercase text-white">get started</a> -->
-               
+            <div class="d-flex justify-between px-10">
+                <a href="" class="uppercase text-white nav-item">Platform</a>
+                <a href="" class="uppercase text-white nav-item">why arya</a>
+                <a href="" class="uppercase text-white nav-item">about us</a>
             </div>
             <div class="bg-signin-btn w-signin-btn h-12 d-flex items-center justify-center rounded drop-shadow-md drop-shadow-3xl ml-20">
-                 <a href="" class="uppercase text-white ">Sign In</a>
+                 <button class="uppercase text-white ">Sign In</button>
             </div>
         </div>
        </div>

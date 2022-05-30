@@ -1,18 +1,19 @@
 <template>
     <div>
-        <b-btn block href="#" v-b-toggle="'accordion'+id" >
+        
+        <b-btn block  v-b-toggle="'accordion'+id" >
         {{data.question}}
-          <span class="when-opened">
-              <span class="fill" v-html="$feathericons['minus'].toSvg()" />
-          </span>
-          <span class="when-closed">
-              <span class="fill" v-html="$feathericons['plus'].toSvg()" />
-          </span>
+            <span class="when-opened">
+                <span class="fill" v-html="$feathericons['minus'].toSvg()" />
+            </span>
+            <span class="when-closed">
+                <span class="fill" v-html="$feathericons['plus'].toSvg()" />
+            </span>
         </b-btn>
 
-      <b-collapse :id="'accordion'+id" >
-        <div>{{data.answer}}</div>
-      </b-collapse>
+        <b-collapse :id="'accordion'+id"  >
+            <div>{{data.answer}}</div>
+        </b-collapse>
 
     </div>
 </template>
