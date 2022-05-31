@@ -42,10 +42,11 @@
           <VueSlickCarousel v-bind="brand">
             <img src="@/assets/images/bellhop.png" alt="" class="w-trusted-by mx-4">
             <img src="@/assets/images/steadymd.png" alt="" class="w-trusted-by  mx-4">
-            <img src="@/assets/images/smartling.png" alt="" class="w-trusted-b mx-4">
+            <img src="@/assets/images/smartling.png" alt="" class="w-trusted-by mx-4">
             <img src="@/assets/images/cielo.png" alt="" class="w-trusted-by mx-4">
-             <img src="@/assets/images/style.png" alt="" class="w-trusted-by mx-4">
+             <img src="@/assets/icons/style.svg" alt="" class="w-trusted-by mx-4">
             <img src="@/assets/images/woodSpoon.png" alt="" class="w-trusted-by mx-4">
+            <img src="@/assets/images/aptDeco.png" alt="" class="w-trusted-by mx-4">
            
 
           </VueSlickCarousel>
@@ -129,7 +130,7 @@
                       How You Value and Pay for Work, Without Any of the Effort<br>
                 </h1>
               <p>Use a powerful no-code editor to design and deploy any compensation plan in 5 minutes.
-Arya handles all the administration. communication and delivery of compensation, eliminating hundreds of Google Sheets and months of product roadmap you thought you needed to pull this off.</p>
+                Arya handles all the administration. communication and delivery of compensation, eliminating hundreds of Google Sheets and months of product roadmap you thought you needed to pull this off.</p>
             </div>
           </VueSlickCarousel>
           </div>
@@ -140,7 +141,7 @@ Arya handles all the administration. communication and delivery of compensation,
     </div>
    <div class="bg-main_bg_color pt-6 4xl:pb-40 blue__slide__section">
     <div class="w-content-width md:w-80 4xl:w-90 mx-auto pt-100 4xl:pt-20">
-       <h4 class="text-yellow-txt px-4 text-48 md:text-32 4xl:text-24 2xl:pb-60 font-weight600">DIY compensation management, <br>Finally, a better alternative!</h4>
+       <h4 class="text-yellow-txt px-4 text-48 md:text-32 4xl:text-24 2xl:pb-60 font-weight600">Finally, a better alternative to <br>DIY compensation management</h4>
       <VueSlickCarousel v-bind="settings" class="blue-slide-section">
     <div class="px-4">
      <div class="d-flex 4xl:flex-col 4xl:flex-col-reverse 4xl:w-100 items-center pb-6 ">
@@ -203,7 +204,7 @@ Arya handles all the administration. communication and delivery of compensation,
             </div>
           </div>
           <div>
-            <div class="d-flex align-center justify-center 3xl:justify-between sm:flex-col border-1 border-box-gray">
+            <div class="d-flex align-center justify-center 3xl:justify-between sm:flex-col border-box-gray">
               <div class="playbook-item px-3 py-3 rounded-8">
                 <play-book-card :item="playbooks.find(x => x.name === activePlaybook)" :row="0" />
               </div>
@@ -225,7 +226,7 @@ Arya handles all the administration. communication and delivery of compensation,
                 </div>
                
                
-                <h4 class="font-weight500 text-title-size pt-27 w-80 text-center leading-30">Os start automating you own strategy</h4>
+                <h4 class="font-weight500 text-title-size pt-27 w-90 leading-30">Or start automating you own strategy</h4>
               </div>
             </div>
           </div>
@@ -263,7 +264,7 @@ Arya handles all the administration. communication and delivery of compensation,
 
         <div class="d-flex items-center 4xl:items-start">
          <div class="w-30">
-           <img src="@/assets/images/testimonilas-img2.png" alt="" class="rounded-full border-8 4xl:border-4 border-solid border-white w-233 md:w-130 4xl:w-82 m-auto  testimonilas-img">
+           <img src="@/assets/images/testimonilas-img3.png" alt="" class="rounded-full border-8 4xl:border-4 border-solid border-white w-233 md:w-130 4xl:w-82 m-auto  testimonilas-img">
          </div>
          <div class="m-auto w-70">
            <p class="font-weight500 text-26 md:text-18 4xl:text-14 text-title-color">The Arya team's knowledge base regarding incentive compensation has proved critical as we've experimented with and evolved our clinician payroll processes</p>
@@ -312,8 +313,8 @@ export default {
         focusOnSelect:true,
         arrows:true,
         dots:false,
-        autoplaySpeed:2000,
-        speed:2000,
+        autoplaySpeed:3500,
+        speed:3500,
 
          "responsive": [
           {
@@ -330,16 +331,16 @@ export default {
         focusOnSelect:true,
         arrows:false,
         dots:true,
-        autoplaySpeed:2000,
-        speed:2000
+        autoplaySpeed:3500,
+        speed:3500
       },
       settings:{
         autoplay:true,
         focusOnSelect:true,
         arrows:false,
         dots:true,
-        autoplaySpeed:2000,
-        speed:2000,
+        autoplaySpeed:4000,
+        speed:4000,
          "responsive": [
           {
       "breakpoint": 768,
@@ -354,10 +355,10 @@ export default {
         focusOnSelect:true,
         arrows:false,
         dots:false,
-        autoplaySpeed:2000,
-        speed:2000,
+        autoplaySpeed:3000,
+        speed:3000,
         slidesToShow: 5,
-        items: 6,
+        items: 7,
 
         "responsive": [
           {
@@ -378,19 +379,12 @@ export default {
         
       }
     },
-    {
-      "breakpoint": 600,
-      "settings": {
-        "slidesToShow": 3,
-        "slidesToScroll": 3,
-       
-      }
-    },
+   
     {
       "breakpoint": 460,
       "settings": {
-        "slidesToShow": 3,
-        "slidesToScroll": 3
+        "slidesToShow": 2,
+        "slidesToScroll": 2,
       }
     }
   ]
@@ -465,27 +459,27 @@ export default {
         },
         {
           "question": "What are the different ways in which I can pay people through Arya?",
-          "answer" : "Dynamic compensation is a new field that refers to the real-time ability to “flex” compensation, incentives and rewards for workforces in order to meet business goals. This can mean different things for different companies, ranging from being able to automatically offer different base hourly compensation based on region, tenure and volume of work, to creating incentives needed to balance workforce supply to customer demand, to creating programs that reward the workforce for going above and beyond in delivering exceptional customer experiences."
+          "answer" : "In addition to making payroll dynamic, Arya allows you to support cash cards, gift cards, donations, and custom organization-specific rewards out of the box. We are also constantly adding new financial and non-financial benefits through integrations with leading providers to build the most robust ecosystem of compensation, ownership and benefits options for workforces, all available through one integration."
         },
         {
           "question": "How does pricing work?",
-          "answer" : "Dynamic compensation is a new field that refers to the real-time ability to “flex” compensation, incentives and rewards for workforces in order to meet business goals. This can mean different things for different companies, ranging from being able to automatically offer different base hourly compensation based on region, tenure and volume of work, to creating incentives needed to balance workforce supply to customer demand, to creating programs that reward the workforce for going above and beyond in delivering exceptional customer experiences."
+          "answer" : "Arya is priced as an annual subscription that covers a certain number of “active” users per month. Active users are determined in any month based on any worker who shows any activity eligible for dynamic compensation through Arya in a given month."
         },
         {
           "question": "Does Arya replace Payroll systems?",
-          "answer" : "Dynamic compensation is a new field that refers to the real-time ability to “flex” compensation, incentives and rewards for workforces in order to meet business goals. This can mean different things for different companies, ranging from being able to automatically offer different base hourly compensation based on region, tenure and volume of work, to creating incentives needed to balance workforce supply to customer demand, to creating programs that reward the workforce for going above and beyond in delivering exceptional customer experiences."
+          "answer" : "No. Arya sits on top of your payroll system, letting your operations teams programmatically decide “how” to pay people, and then pushes payments into your payroll system (among other things) to handle the “last mile” delivery of payroll as usual."
         },
         {
           "question": "What integrations do you support?",
-          "answer" : "Dynamic compensation is a new field that refers to the real-time ability to “flex” compensation, incentives and rewards for workforces in order to meet business goals. This can mean different things for different companies, ranging from being able to automatically offer different base hourly compensation based on region, tenure and volume of work, to creating incentives needed to balance workforce supply to customer demand, to creating programs that reward the workforce for going above and beyond in delivering exceptional customer experiences."
+          "answer" : "We support over 100 integrations into CRMs, HRIS, payroll and other systems where information about your workforce and the work that they do is sitting. In addition, our most sophisticated customers integrate natively with our API to push information about people and work into Arya."
         },
         {
           "question": "How long does it typically take to integrate with Arya?",
-          "answer" : "Dynamic compensation is a new field that refers to the real-time ability to “flex” compensation, incentives and rewards for workforces in order to meet business goals. This can mean different things for different companies, ranging from being able to automatically offer different base hourly compensation based on region, tenure and volume of work, to creating incentives needed to balance workforce supply to customer demand, to creating programs that reward the workforce for going above and beyond in delivering exceptional customer experiences."
+          "answer" : "It usually takes two weeks to go from kickoff to the first dynamic plan being live on Arya. Integration with Arya is quick and painless. If you’ve ever used a third party system like Stripe or Looker, you are likely set up really well to get started with Arya."
         },
         {
           "question": "Do you offer any free trials?",
-          "answer" : "Dynamic compensation is a new field that refers to the real-time ability to “flex” compensation, incentives and rewards for workforces in order to meet business goals. This can mean different things for different companies, ranging from being able to automatically offer different base hourly compensation based on region, tenure and volume of work, to creating incentives needed to balance workforce supply to customer demand, to creating programs that reward the workforce for going above and beyond in delivering exceptional customer experiences."
+          "answer" : "Yes. The length of our free trials depend on the complexity of your needs, and we make sure you are seeing value in Arya before we charge you a single cent."
         },
       ]
     }
@@ -511,7 +505,7 @@ export default {
       } else {
         a = 0
       }
-    }, 1000)
+    }, 2000)
   }
 }
 
@@ -635,9 +629,7 @@ export default {
   color: transparent;
   width: 20px;
 }
-.testimonials-slide-img {
-object-fit: none;
-}
+
 
 .collapsed, .not-collapsed {
   display: flex;

@@ -1,15 +1,28 @@
 <template>
     <header>
 
-        <div class="bg-blue_nav pt-40 mobile-nva-menu pb-20" v-if="windowWidth<990">
+        <div class="bg-blue_nav pt-40 mobile-nav-menu pb-20" v-if="windowWidth<990">
+         <div v-if="mobile_menu" class="h-screen fill mobile_menu_bar absolute inset-0 w-100 bg-mobile-nav-color z-50 pt-26 pl-20 pr-20 pb-90">
+         <div class="d-flex justify-end"  v-html="$feathericons['x'].toSvg()"></div>
+         <div>
+             <button class="border-1 rounded-8 w-100 uppercase py-15 border-white mt-20 font-weight700 text-16 text-white">platform</button> 
+              <button class="border-1 rounded-8 w-100 uppercase py-15 border-white mt-17 font-weight700 text-16 text-white">why arya</button> 
+              <button class="border-1 rounded-8 w-100 uppercase py-15 border-white mt-17 mb-40 font-weight700 text-16 text-white">about us</button>
+              <button class="w-100 bg-yellow-btn rounded border-btn-yellow py-15 text-16 uppercase text-blue-txt font-weight700">sign in
+          </button> 
+              
+         </div>
+         </div>
            <div class="w-80 m-auto d-flex justify-between items-center fill">
                 <img src="@/assets/icons/logo.svg" alt="" class="w-116">
+                
               <div class="d-flex items-center">
                    <div class="bg-signin-btn w-signin-btn h-12 d-flex items-center justify-center rounded drop-shadow-md drop-shadow-3xl ml-20">
                    <button class="uppercase text-white font-weight800">Sign In</button>
                </div>
-                <span v-html="$feathericons['menu'].toSvg()" class="ml-20" @click="openMobileMenu"></span>
-                    <div v-if="mobile_menu">bgfbfb</div>
+                <span v-html="$feathericons['menu'].toSvg()" class="ml-20" @click="openMobileMenu">
+                </span>
+                <!-- <div v-if="mobile_menu">bgfbfb</div> -->
               </div>
            </div>
         </div>
@@ -57,3 +70,9 @@ export default {
 }
 
 </script>
+
+<style>
+ .mobile-nav-menu .fill svg {
+     color: white;
+ }
+</style>

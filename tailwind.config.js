@@ -40,9 +40,8 @@ module.exports = {
         'sm': '-1px',
         '20': '20px',
         '40': '40px',
-
-        
-      },
+        '17': '17px',
+  },
      
       backgroundColor: {
         'blue_nav': '#0F6CC2',
@@ -53,6 +52,7 @@ module.exports = {
         'btn-bckg': '#EEEEEE',
         'slide-bg-color': '#EAEEF1',
         'mobile-bg-color': '#ffffff',
+        'mobile-nav-color': '#00448D',
       },
      width: {
         'content-width': '1200px',
@@ -111,7 +111,7 @@ module.exports = {
        
      },
       fontWeight: {
-       'weight800': 'bold',
+       'weight800': '800',
        'weight600': '600',
        'weight500': '500',
        'weight700': '700',
@@ -123,6 +123,7 @@ module.exports = {
         'btn-yellow': '#FFC800',
         'title-color': '#131A1C',
         'box-gray': '#E6E6E6',
+        'white': '#ffffff',
         
       },
 
@@ -148,6 +149,9 @@ module.exports = {
       borderRadius: {
         '8': '8px',
        
+    },
+    borderWidth: {
+     '1': '1px',
     },
       dropShadow: {
         '3xl': '0px 4px 4px rgba(0, 0, 0, 0.25)',
