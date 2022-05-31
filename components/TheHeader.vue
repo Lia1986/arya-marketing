@@ -13,7 +13,7 @@
               </div>
            </div>
         </div>
-        <div class="nav_banner bg-blue_nav h-24 5xl:h-0"></div>
+        <div class="nav_banner bg-blue_nav h-24 3xl:h-0"></div>
        <div class="bg-main_bg_color pt-8 pb-6 3xl:hidden">
             <div class="w-content-width 2xl:w-80 xl:w-80 lg:w-80 md:w-80 mx-auto d-flex items-center justify-between">
             <div class="">

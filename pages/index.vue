@@ -22,21 +22,19 @@
 
       </div>
     </div>
-    <div class="bg-light-secton pt-logo-right-pd 5xl:pt-40">
+    <div class="bg-light-secton pt-logo-right-pd 5xl:pt-40 4xl:pb-40">
        
-      <div class="w-content-width 2xl:w-80 mx-auto">
+      <div class="w-content-width lg:w-80 md:w-80 4xl:w-90 mx-auto">
         <button class="5xl:mb-40 w-100 mobile-request-demo bg-yellow-btn rounded border-2 mr-3 border-btn-yellow w-header-btn h-62 2xl:text-18 2xl:py-15 uppercase text-blue-txt font-weight800 text-btn-font-size 3xl:h-54 d-flex items-center justify-center">REQUEST
           A DEMO</button>
-        <h2 class="text-center text-title-color text-title-size font-weight800 pb-title-padding">TRUSTED BY OPERATIONS
+        <div class="4xl-bg-mobile-bg-color">
+          <h2 class="text-center text-title-color text-title-size font-weight800 pb-title-padding">TRUSTED BY OPERATIONS
           TEAMS AT</h2>
 
         <no-ssr>
           <!-- important to add no-ssr-->
           <!-- <carousel :autoplay="true" :items="3" :autoplayHoverPause="true" :rewind="flase" :autoSpeed="500">
-
-           
-
-          </carousel> -->
+        </carousel> -->
           <VueSlickCarousel v-bind="brand">
             <img src="@/assets/images/bellhop.png" alt="" class="w-trusted-by mx-4">
             <img src="@/assets/images/steadymd.png" alt="" class="w-trusted-by  mx-4">
@@ -48,11 +46,12 @@
 
           </VueSlickCarousel>
         </no-ssr>
+        </div>
 
         <h3
           class="text-center text-title-color text-48 md:text-32 4xl:text-24 title-size font-weight600 pb-footer-pd-top 2xl: leading-56 4xl:leading-32 w-780 3xl:w-100 3xl:leading-46 mx-auto pt-footer-pd-bottem 3xl:pt-76">
           Build smarter compensation, incentives and rewards that delight both your flex workforce and CEO</h3>
-        <div class="w-content-width 2xl:w-100 mx-auto">
+        <div class="w-content-width 2xl:w-100 mx-auto smarter-compentation">
           <div class="d-flex 4xl:items-center">
             <div class="pr-60 w-50"><img src="@/assets/images/image1.png" alt=""></div>
             <div class="w-50 d-flex flex-col justify-center">
@@ -104,41 +103,71 @@
               <img src="@/assets/images/image4.png" alt=""></div>
           </div>
         </div>
+         <VueSlickCarousel v-bind="smarter" class="mobile-smarter-slider">
+            <div class="smarter-slide">
+              <img src="@/assets/icons/smarter-img1.svg" alt="">
+              <h1>A Real-time Pulse <br>
+                 OF YOUR WORKFOCE</h1>
+              <p>Dynamic compensation starts with dynamic data. With powerful API and hundreds of pre-built integrations into HRIS, CRMs, get up-to-the-minute visibility into the value your talent is creating at work.</p>
+            </div>
+
+            <div class="smarter-slide">
+              <img src="@/assets/icons/smarter-img1.svg" alt="">
+              <h1>A Real-time Pulse <br>
+                 OF YOUR WORKFOCE</h1>
+              <p>Dynamic compensation starts with dynamic data. With powerful API and hundreds of pre-built integrations into HRIS, CRMs, get up-to-the-minute visibility into the value your talent is creating at work.</p>
+            </div>
+
+            <div class="smarter-slide">
+              <img src="@/assets/icons/smarter-img3.svg" alt="">
+              <h1>Infinite Flexibility in <br>  
+                      How You Value and Pay for Work, Without Any of the Effort<br>
+                </h1>
+              <p>Use a powerful no-code editor to design and deploy any compensation plan in 5 minutes.
+Arya handles all the administration. communication and delivery of compensation, eliminating hundreds of Google Sheets and months of product roadmap you thought you needed to pull this off.</p>
+            </div>
+          </VueSlickCarousel>
       </div>
     </div>
     <div>
 
     </div>
-   <div class="bg-main_bg_color pt-6">
-    <div class="w-content-width 2xl:w-80 mx-auto pt-100">
+   <div class="bg-main_bg_color pt-6 4xl:pb-40 blue__slide__section">
+    <div class="w-content-width 2xl:w-80 mx-auto pt-100 4xl:pt-20">
        <h4 class="text-yellow-txt px-4 text-48 2xl:text-32 2xl:pb-60 font-weight600">DIY compensation management, <br>Finally, a better alternative!</h4>
-      <VueSlickCarousel v-bind="settings">
+      <VueSlickCarousel v-bind="settings" class="blue-slide-section">
     <div class="px-4">
-     <div class="d-flex items-center pb-6 ">
-        <div class="w-50 ">
+     <div class="d-flex 4xl:flex-col 4xl:flex-col-reverse 4xl:w-100 items-center pb-6 ">
+        <div class="w-49 4xl:w-100">
           <p class="pr-24 font-weight500 text-3xl text-white 2xl:text-22 2xl:pr-20">Leapfrog  months-long product roadmap and go live with dynamic compensation with a one-sprint integration.</p>
         </div>
-        <div class="w-50"><img src="@/assets/images/blue-slide-img-1.png" alt=""></div>
+        <div class="w-49 4xl:w-100">
+          <img src="@/assets/images/blue-slide-img-1.png" alt="" class="blue-slide-img"></div>
+          <img src="@/assets/images/blue-slide-image-mobile1.png" alt="" class="blue-slide-img-mobile">
       </div>
     </div>
-
-
-    <div class="px-4">
+  <div class="px-4">
      
-      <div class="d-flex items-center">
-        <div class="w-50 ">
+      <div class="d-flex 4xl:flex-col 4xl:flex-col-reverse 4xl:w-100 items-center">
+        <div class="w-49 4xl:w-100">
           <p class="pr-24 font-weight500 text-3xl text-white 2xl:text-22 2xl:pr-20">Eliminate guesswork and gruntwork for your operations teams for all things compensations, incentives and rewards</p>
         </div>
-        <div class="w-50"><img src="@/assets/images/blue-slide-img-2.png" alt=""></div>
+        <div class="w-49 4xl:w-100">
+          <img src="@/assets/images/blue-slide-img-2.png" alt="" class="blue-slide-img">
+          <img src="@/assets/images/blue-slide-image-mobile2.png" alt="" class="blue-slide-img-mobile">
+          </div>
       </div>
     </div>
 
     <div class="px-4">
-     <div class="d-flex items-center">
-        <div class="w-50 ">
+     <div class="d-flex 4xl:flex-col 4xl:flex-col-reverse 4xl:w-100 items-center">
+        <div class="w-49 4xl:w-100">
           <p class="pr-24 font-weight500 text-3xl text-white 2xl:text-22 2xl:pr-20">More scientific compensation means more happiness for your workers, and faster, more profitable growth for you.</p>
         </div>
-        <div class="w-50"><img src="@/assets/images/blue-slide-img-3.png" alt=""></div>
+        <div class="w-49">
+          <img src="@/assets/images/blue-slide-img-3.png" alt="" class="blue-slide-img">
+           <img src="@/assets/images/blue-slide-image-mobile3.png" alt="" class="blue-slide-img-mobile">
+         </div>
       </div>
     </div>
       </VueSlickCarousel>
@@ -150,7 +179,7 @@
 
 
     <div class="bg-light-secton 4xl:bg-mobile-bg-color pt-footer-pd-bottem">
-      <div class="w-content-width 2xl:w-80 mx-auto pb-footer-pd-bottem">
+      <div class="w-content-width 2xl:w-80 4xl:w-90 mx-auto pb-footer-pd-bottem">
         <div class="text-48 text-title-color text-title-size font-weight800 pb-title-padding 2xl:text-36">Get more dynamic, fast.
         </div>
         <p class="weight500 w-68 sm:w-100 pb-footer-pd-bottem text-title-color text-title-size">Automate your own compensation,
@@ -196,15 +225,15 @@
           </div>
         </div>
       </div>
-      <div class="w-content-width 2xl:w-80 mx-auto">
+      <div class="w-content-width 2xl:w-80 4xl:w-90 mx-auto">
           <h3 class="pb-footer-pd-top text-title-color font-weight800 text-title-size text-center">WE POWER OPERATIONS TEAMS THAT POWER THE FUTURE OF WORK</h3>
       </div>
       <div class="bg-slide-bg-color 4xl:bg-mobile-bg-color pt-76 pb-96">
-        <div class="w-content-width 2xl:w-80 mx-auto testimonials-slider">
-        <VueSlickCarousel :focusOnSelect="true" :arrows="true" :dots="false" :autoplay="true" :autoplaySpeed="2000" :speed="2000">
+        <div class="w-content-width 2xl:w-80 4xl:w-90 mx-auto testimonials-slider">
+        <VueSlickCarousel v-bind="testimonials">
   
      
-        <div class="d-flex items-center">
+        <div class="d-flex items-center 4xl:items-start">
          <div class="w-30">
            <img src="@/assets/images/testimonilas-img1.png" alt="" class="rounded-full border-8 4xl:border-4 border-solid border-white w-233 md:w-130 4xl:w-82 m-auto">
          </div>
@@ -215,7 +244,7 @@
          </div>
         </div>
 
-       <div class="d-flex items-center">
+       <div class="d-flex items-center 4xl:items-start">
          <div class="w-30">
            <img src="@/assets/images/testimonilas-img2.png" alt="" class="rounded-full border-8 4xl:border-4 border-solid border-white w-233 md:w-130 4xl:w-82 m-auto">
          </div>
@@ -226,7 +255,7 @@
          </div>
         </div>
 
-        <div class="d-flex items-center">
+        <div class="d-flex items-center 4xl:items-start">
          <div class="w-30">
            <img src="@/assets/images/testimonilas-img2.png" alt="" class="rounded-full border-8 4xl:border-4 border-solid border-white w-233 md:w-130 4xl:w-82 m-auto">
          </div>
@@ -244,7 +273,7 @@
       <h4 class="uppercase pb-footer-pd-top text-title-color font-weight800 text-title-size text-center">
         frequently asked questions
       </h4>
-       <div class="w-content-width 2xl:w-80 mx-auto">
+       <div class="w-content-width 2xl:w-80 4xl:w-90 mx-auto">
          <div v-for="(data,index) in faq" :bind="data.question" class="opene_collapse">
         <collapse :data="data" :id="index"/>
      </div>
@@ -266,13 +295,51 @@ export default {
   components: { PlayBookCard, Collapse, VueSlickCarousel },
   data() {
     return {
-      settings:{
-        autoplay:true,
+      testimonials:{
+         autoplay:true,
+        focusOnSelect:true,
+        arrows:true,
+        dots:false,
+        autoplaySpeed:2000,
+        speed:2000,
+
+         "responsive": [
+          {
+      "breakpoint": 768,
+      "settings": {
+        arrows:false,
+   }
+    }
+  ]
+        
+      },
+      smarter:{
+        autoplay:false,
         focusOnSelect:true,
         arrows:false,
         dots:true,
         autoplaySpeed:2000,
         speed:2000
+      },
+      settings:{
+        autoplay:false,
+        focusOnSelect:true,
+        arrows:false,
+        dots:true,
+        autoplaySpeed:2000,
+        speed:2000,
+         "responsive": [
+          {
+      "breakpoint": 768,
+      "settings": {
+       
+        "arrows":true,
+       
+        }
+    },
+   ]
+        
+        
       },
       brand:{
         autoplay:true,
@@ -320,6 +387,7 @@ export default {
     }
   ]
       },
+      
       attractArray: ['Attract', 'Retain', 'Motivate'],
       inputValue: 'attract',
       "activePlaybook": "Attract",
@@ -450,6 +518,9 @@ export default {
   /* width: 50px;
   height: 50px; */
   /* background-color: red; */
+}
+.mobile-smarter-slider {
+  display: none !important;
 }
 
 .playbook-active .svg-bgr {
@@ -626,6 +697,9 @@ color: #666666;
 .mobile-request-demo {
   display: none !important;
 }
+ .blue-slide-img-mobile {
+    display: none !important;
+  }
 @media only screen and (max-width: 990px) {
   .mobile-hero-img {
    display: block;
@@ -658,6 +732,9 @@ color: #666666;
      padding-top: 47px;
     padding-bottom: 46px;
   }
+  .mobile-nva-menu .fill svg{
+       color: #ffffff;
+     }
  
 }
  @media only screen and (max-width: 768px) {
@@ -693,6 +770,11 @@ color: #666666;
   .blue-button {
     border: unset;
   }
+  .blue-slide-section p {
+    padding-right: 0;
+  }
+ 
+ 
  
  
   }
@@ -709,7 +791,90 @@ color: #666666;
       }
       .w-trusted-by {
     width: 102px !important;
+  }
+  .smarter-compentation {
+    display: none;
+  }
   
+  .mobile-smarter-slider {
+   display: block !important;
+  }
+  
+  .mobile-smarter-slider .slick-dots .slick-active {
+      background: #0266D1;
+  }
+ .mobile-smarter-slider .slick-list > div {
+   display: block !important;
+  }
+  .mobile-smarter-slider .slick-dots li {
+    margin-bottom: 0;
+    margin-top: 150px;
+    border: 2px solid #0266D1;
+    background: transparent;
+    color: transparent;
+}
+   .mobile-smarter-slider{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    
+  }
+ 
+  .smarter-slide h1 {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+
+   color: #00448D;
+  }
+  .smarter-slide p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #131A1C;
+   
+  }
+  .smarter-slide {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .blue-slide-img {
+    display: none !important;
+  }
+   .blue-slide-img-mobile {
+    display: block !important;
+    padding-bottom: 30px;
+    margin: auto;
+  }
+  .blue-slide-section {
+    display: flex !important;
+    position: relative;
+    padding-bottom: 120px;
+    background-color: #00448D;
+    padding: 40px 20px 80px 20px;
+    border-radius: 8px;
+  }
+  .blue-slide-section .slick-dots {
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    right: 0;
+  }
+
+  .blue-slide-section .slick-next::after {
+     color: #FFC800;
+}
+ .blue-slide-section .slick-prev::before {
+     color: #FFC800;
+}
+.slick-dots li {
+  border: 2px solid #FFC800;
+ 
+}
+.blue__slide__section {
+ background: linear-gradient(180deg, #0266D1 0%, #00448D 100%) !important;
 }
     
      
@@ -721,9 +886,7 @@ color: #666666;
       .mobile-request-demo {
         display: block !important;
 }
-    .mobile-nva-menu .fill svg{
-       color: #ffffff;
-     }
+    
        .desktop-request-demo {
         display: none !important;
       }
