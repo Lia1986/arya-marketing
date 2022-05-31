@@ -3,7 +3,7 @@
 
         <div class="bg-blue_nav pt-40 mobile-nav-menu pb-20" v-if="windowWidth<990">
          <div v-if="mobile_menu" class="h-screen fill mobile_menu_bar absolute inset-0 w-100 bg-mobile-nav-color z-50 pt-26 pl-20 pr-20 pb-90">
-         <div class="d-flex justify-end"  v-html="$feathericons['x'].toSvg()"></div>
+         <div class="d-flex justify-end"  v-html="$feathericons['x'].toSvg()"  @click="openMobileMenu"></div>
          <div>
              <button class="border-1 rounded-8 w-100 uppercase py-15 border-white mt-20 font-weight700 text-16 text-white">platform</button> 
               <button class="border-1 rounded-8 w-100 uppercase py-15 border-white mt-17 font-weight700 text-16 text-white">why arya</button> 

@@ -591,8 +591,8 @@ export default {
 .slick-dots li {
   
   border-radius: 50%;
-  height: 10px;
-  width: 10px;
+  height: 14px;
+  width: 14px;
   margin-left: 8px;
   margin-right: 8px;
   margin-bottom: 93px;
