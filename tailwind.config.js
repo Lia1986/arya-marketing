@@ -33,6 +33,8 @@ module.exports = {
         '0': '0px',
         '5': '5px',
         '40': '40px',
+        '300': '300px',
+        '200': '200px',
       },
       margin: {
         'sm': '-1px',
@@ -109,7 +111,7 @@ module.exports = {
        
      },
       fontWeight: {
-       'weight800': '800',
+       'weight800': 'bold',
        'weight600': '600',
        'weight500': '500',
        'weight700': '700',
@@ -140,6 +142,7 @@ module.exports = {
         '30': '30px',
         '34': '34px',
         '32': '32px',
+        '28': '28px',
         
       }, 
       borderRadius: {

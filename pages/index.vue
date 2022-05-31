@@ -22,14 +22,18 @@
 
       </div>
     </div>
-    <div class="bg-light-secton pt-logo-right-pd 5xl:pt-40 4xl:pb-40">
-       
-      <div class="w-content-width lg:w-80 md:w-80 4xl:w-90 mx-auto">
+    <div class="bg-light-secton 4xl:bg-mobile-bg-color pt-logo-right-pd 5xl:pt-40 4xl:pt-0">
+      <div>
+        
+      </div>
+      <div class="4xl-bg-mobile-bg-color mobile-bg-color">
+     <div class="w-content-width 4xl:w-auto lg:w-80 md:w-80 4xl:w-90 mx-auto">
         <button class="5xl:mb-40 w-100 mobile-request-demo bg-yellow-btn rounded border-2 mr-3 border-btn-yellow w-header-btn h-62 2xl:text-18 2xl:py-15 uppercase text-blue-txt font-weight800 text-btn-font-size 3xl:h-54 d-flex items-center justify-center">REQUEST
           A DEMO</button>
-        <div class="4xl-bg-mobile-bg-color">
+        
           <h2 class="text-center text-title-color text-title-size font-weight800 pb-title-padding">TRUSTED BY OPERATIONS
-          TEAMS AT</h2>
+          TEAMS AT
+          </h2>
 
         <no-ssr>
           <!-- important to add no-ssr-->
@@ -47,11 +51,12 @@
           </VueSlickCarousel>
         </no-ssr>
         </div>
-
+        </div>
+         <div class="mobile-gray-bg">
         <h3
-          class="text-center text-title-color text-48 md:text-32 4xl:text-24 title-size font-weight600 pb-footer-pd-top 2xl: leading-56 4xl:leading-32 w-780 3xl:w-100 3xl:leading-46 mx-auto pt-footer-pd-bottem 3xl:pt-76">
+          class="text-center text-title-color text-48 md:text-32 4xl:text-24 title-size font-weight600 pb-footer-pd-top 2xl: leading-56 4xl:leading-32 w-780 3xl:w-100 3xl:leading-46 mx-auto pt-footer-pd-bottem 3xl:pt-40">
           Build smarter compensation, incentives and rewards that delight both your flex workforce and CEO</h3>
-        <div class="w-content-width 2xl:w-100 mx-auto smarter-compentation">
+        <div class="w-content-width md:w-80 4xl:w-100 mx-auto smarter-compentation">
           <div class="d-flex 4xl:items-center">
             <div class="pr-60 w-50"><img src="@/assets/images/image1.png" alt=""></div>
             <div class="w-50 d-flex flex-col justify-center">
@@ -127,19 +132,20 @@
 Arya handles all the administration. communication and delivery of compensation, eliminating hundreds of Google Sheets and months of product roadmap you thought you needed to pull this off.</p>
             </div>
           </VueSlickCarousel>
-      </div>
-    </div>
+          </div>
+      
+     </div>
     <div>
 
     </div>
    <div class="bg-main_bg_color pt-6 4xl:pb-40 blue__slide__section">
-    <div class="w-content-width 2xl:w-80 mx-auto pt-100 4xl:pt-20">
-       <h4 class="text-yellow-txt px-4 text-48 2xl:text-32 2xl:pb-60 font-weight600">DIY compensation management, <br>Finally, a better alternative!</h4>
+    <div class="w-content-width md:w-80 4xl:w-90 mx-auto pt-100 4xl:pt-20">
+       <h4 class="text-yellow-txt px-4 text-48 md:text-32 4xl:text-24 2xl:pb-60 font-weight600">DIY compensation management, <br>Finally, a better alternative!</h4>
       <VueSlickCarousel v-bind="settings" class="blue-slide-section">
     <div class="px-4">
      <div class="d-flex 4xl:flex-col 4xl:flex-col-reverse 4xl:w-100 items-center pb-6 ">
         <div class="w-49 4xl:w-100">
-          <p class="pr-24 font-weight500 text-3xl text-white 2xl:text-22 2xl:pr-20">Leapfrog  months-long product roadmap and go live with dynamic compensation with a one-sprint integration.</p>
+          <p class="pr-24 font-weight500 text-3xl text-white md:text-22 4xl:text-18 2xl:pr-20 4xl:leading-28">Leapfrog  months-long product roadmap and go live with dynamic compensation with a one-sprint integration.</p>
         </div>
         <div class="w-49 4xl:w-100">
           <img src="@/assets/images/blue-slide-img-1.png" alt="" class="blue-slide-img"></div>
@@ -150,11 +156,11 @@ Arya handles all the administration. communication and delivery of compensation,
      
       <div class="d-flex 4xl:flex-col 4xl:flex-col-reverse 4xl:w-100 items-center">
         <div class="w-49 4xl:w-100">
-          <p class="pr-24 font-weight500 text-3xl text-white 2xl:text-22 2xl:pr-20">Eliminate guesswork and gruntwork for your operations teams for all things compensations, incentives and rewards</p>
+          <p class="pr-24 font-weight500 text-3xl text-white md:text-22 4xl:text-18 4xl:leading-28  2xl:pr-20">Eliminate guesswork and gruntwork for your operations teams for all things compensations, incentives and rewards</p>
         </div>
         <div class="w-49 4xl:w-100">
-          <img src="@/assets/images/blue-slide-img-2.png" alt="" class="blue-slide-img">
-          <img src="@/assets/images/blue-slide-image-mobile2.png" alt="" class="blue-slide-img-mobile">
+            <img src="@/assets/images/blue-slide-img-2.png" alt="" class="blue-slide-img">
+            <img src="@/assets/images/blue-slide-image-mobile3.png" alt="" class="blue-slide-img-mobile">
           </div>
       </div>
     </div>
@@ -162,9 +168,9 @@ Arya handles all the administration. communication and delivery of compensation,
     <div class="px-4">
      <div class="d-flex 4xl:flex-col 4xl:flex-col-reverse 4xl:w-100 items-center">
         <div class="w-49 4xl:w-100">
-          <p class="pr-24 font-weight500 text-3xl text-white 2xl:text-22 2xl:pr-20">More scientific compensation means more happiness for your workers, and faster, more profitable growth for you.</p>
+          <p class="pr-24 font-weight500 text-3xl text-white md:text-22 4xl:text-18 2xl:pr-20 4xl:leading-28">More scientific compensation means more happiness for your workers, and faster, more profitable growth for you.</p>
         </div>
-        <div class="w-49">
+        <div class="w-49 4xl:w-100">
           <img src="@/assets/images/blue-slide-img-3.png" alt="" class="blue-slide-img">
            <img src="@/assets/images/blue-slide-image-mobile3.png" alt="" class="blue-slide-img-mobile">
          </div>
@@ -178,11 +184,11 @@ Arya handles all the administration. communication and delivery of compensation,
     <!-- <div v-html="$feathericons['home'].toSvg()" class="fill"></div> -->
 
 
-    <div class="bg-light-secton 4xl:bg-mobile-bg-color pt-footer-pd-bottem">
-      <div class="w-content-width 2xl:w-80 4xl:w-90 mx-auto pb-footer-pd-bottem">
-        <div class="text-48 text-title-color text-title-size font-weight800 pb-title-padding 2xl:text-36">Get more dynamic, fast.
+    <div class="bg-light-secton 4xl:bg-mobile-bg-color pt-footer-pd-bottem 4xl:pt-100">
+      <div class="w-content-width 2xl:w-80 4xl:w-90 mx-auto pb-footer-pd-bottem 4xl:pb-60">
+        <div class="text-48 text-title-color text-title-size font-weight800 pb-title-padding md:text-36 4xl:text-24 4xl:text-center">Get more dynamic, fast.
         </div>
-        <p class="weight500 w-68 sm:w-100 pb-footer-pd-bottem text-title-color text-title-size">Automate your own compensation,
+        <p class="weight500 w-68 sm:w-100 pb-footer-pd-bottem text-title-color text-title-size 4xl:text-center 4xl:pb-40">Automate your own compensation,
           incentives and rewards strategy in minutes, or choose from pre-build Dynamic Compensation playbooks proven to
           help attract, motivate and engage talent.</p>
         <div class="d-flex h-830 3xl:h-auto 3xl:flex-col">
@@ -212,7 +218,7 @@ Arya handles all the administration. communication and delivery of compensation,
                 <play-book-card :item="playbooks.find(x => x.name === activePlaybook)" :row="2" />
               </div>
 
-              <div class="playbook-item px-3 py-3 d-flex flex-col justify-center items-center  rounded-8 blue-button">
+              <div class="playbook-item px-3 py-3 d-flex flex-col justify-center items-center  rounded-8 blue-button explor-more-playbooks">
                 <div class="d-flex justify-center bg-main_bg_color items-center py-3 rounded-8 uppercase w-100 px-15">
                   <button class="pr-2 font-weight800 text-title-size text-white 3xl:text-18">Explore more playbooks</button>
                   <span class="fill	text-white mt-1" v-html="$feathericons['chevron-right'].toSvg()" />
@@ -226,7 +232,7 @@ Arya handles all the administration. communication and delivery of compensation,
         </div>
       </div>
       <div class="w-content-width 2xl:w-80 4xl:w-90 mx-auto">
-          <h3 class="pb-footer-pd-top text-title-color font-weight800 text-title-size text-center">WE POWER OPERATIONS TEAMS THAT POWER THE FUTURE OF WORK</h3>
+          <h3 class="pb-footer-pd-top text-title-color font-weight800 text-title-size text-center 4xl:pb-0">WE POWER OPERATIONS TEAMS THAT POWER THE FUTURE OF WORK</h3>
       </div>
       <div class="bg-slide-bg-color 4xl:bg-mobile-bg-color pt-76 pb-96">
         <div class="w-content-width 2xl:w-80 4xl:w-90 mx-auto testimonials-slider">
@@ -235,7 +241,7 @@ Arya handles all the administration. communication and delivery of compensation,
      
         <div class="d-flex items-center 4xl:items-start">
          <div class="w-30">
-           <img src="@/assets/images/testimonilas-img1.png" alt="" class="rounded-full border-8 4xl:border-4 border-solid border-white w-233 md:w-130 4xl:w-82 m-auto">
+           <img src="@/assets/images/testimonilas-img1.png" alt="" class="rounded-full border-8 4xl:border-4 border-solid border-white w-233 md:w-130 4xl:w-82 m-auto testimonilas-img">
          </div>
          <div class="m-auto w-70">
            <p class="font-weight500 text-26 md:text-18 4xl:text-14 text-title-color">The Arya team's knowledge base regarding incentive compensation has proved critical as we've experimented with and evolved our clinician payroll processes</p>
@@ -246,7 +252,7 @@ Arya handles all the administration. communication and delivery of compensation,
 
        <div class="d-flex items-center 4xl:items-start">
          <div class="w-30">
-           <img src="@/assets/images/testimonilas-img2.png" alt="" class="rounded-full border-8 4xl:border-4 border-solid border-white w-233 md:w-130 4xl:w-82 m-auto">
+           <img src="@/assets/images/testimonilas-img2.png" alt="" class="rounded-full border-8 4xl:border-4 border-solid border-white w-233 md:w-130 4xl:w-82 m-auto  testimonilas-img">
          </div>
          <div class="m-auto w-70">
            <p class="font-weight500 text-26 md:text-18 4xl:text-14 text-title-color">"The team at Arya has deep expertise around incentives that drive alignment between my company and my workforce. By far the best aspect is the level of service they provide"</p>
@@ -257,20 +263,23 @@ Arya handles all the administration. communication and delivery of compensation,
 
         <div class="d-flex items-center 4xl:items-start">
          <div class="w-30">
-           <img src="@/assets/images/testimonilas-img2.png" alt="" class="rounded-full border-8 4xl:border-4 border-solid border-white w-233 md:w-130 4xl:w-82 m-auto">
+           <img src="@/assets/images/testimonilas-img2.png" alt="" class="rounded-full border-8 4xl:border-4 border-solid border-white w-233 md:w-130 4xl:w-82 m-auto  testimonilas-img">
          </div>
          <div class="m-auto w-70">
            <p class="font-weight500 text-26 md:text-18 4xl:text-14 text-title-color">The Arya team's knowledge base regarding incentive compensation has proved critical as we've experimented with and evolved our clinician payroll processes</p>
-           <p class="pb-26 pt-20 text-title-size md:text-18 4xl:text-14"><span class="font-weight700">Anna Pearl W, </span><span class="font-weight500">Director of Special Projects at SteadyMD</span></p>
-           <img src="@/assets/images/steadymd.png" alt="" class="max-w-226 testimonials-slide-img">
+             <p class="pb-26 pt-20 text-title-size md:text-18 4xl:text-14"><span class="font-weight700">Anna Pearl W, </span><span class="font-weight500">Director of Special Projects at SteadyMD</span></p>
+             <img src="@/assets/images/steadymd.png" alt="" class="max-w-226 testimonials-slide-img">
+           
+             
+          
          </div>
         </div>
         </VueSlickCarousel>
       </div>
       </div>
      
-    <div class="bg-light-secton 4xl:bg-mobile-bg-color pt-150 pb-610">
-      <h4 class="uppercase pb-footer-pd-top text-title-color font-weight800 text-title-size text-center">
+    <div class="bg-light-secton 4xl:bg-mobile-bg-color pt-150 pb-610 md:pb-300 4xl:pt-0">
+      <h4 class="uppercase pb-footer-pd-top 4xl:pb-40 text-title-color font-weight800 text-title-size text-center">
         frequently asked questions
       </h4>
        <div class="w-content-width 2xl:w-80 4xl:w-90 mx-auto">
@@ -280,7 +289,10 @@ Arya handles all the administration. communication and delivery of compensation,
        </div>
     </div>
 </div>
+ 
   </div>
+
+ 
 
 
 </template>
@@ -314,7 +326,7 @@ export default {
         
       },
       smarter:{
-        autoplay:false,
+        autoplay:true,
         focusOnSelect:true,
         arrows:false,
         dots:true,
@@ -322,7 +334,7 @@ export default {
         speed:2000
       },
       settings:{
-        autoplay:false,
+        autoplay:true,
         focusOnSelect:true,
         arrows:false,
         dots:true,
@@ -332,15 +344,11 @@ export default {
           {
       "breakpoint": 768,
       "settings": {
-       
         "arrows":true,
-       
-        }
+         }
     },
    ]
-        
-        
-      },
+  },
       brand:{
         autoplay:true,
         focusOnSelect:true,
@@ -611,6 +619,7 @@ export default {
    display: block;
    font-size: 50px;
    color: #9F9F9F;
+    width: 20px;
    
 }
 .slick-next::after {
@@ -618,10 +627,13 @@ export default {
    display: block;
    font-size: 50px;
    color: #9F9F9F;
+   width: 20px;
+   margin-top: -40px;
    
 }
 .slick-prev, .slick-next {
   color: transparent;
+  width: 20px;
 }
 .testimonials-slide-img {
 object-fit: none;
@@ -876,6 +888,20 @@ color: #666666;
 .blue__slide__section {
  background: linear-gradient(180deg, #0266D1 0%, #00448D 100%) !important;
 }
+.mobile-bg-color {
+  padding: 40px 20px 40px 20px;
+}
+.mobile-gray-bg {
+  background-color: #F6F7F8;
+  padding: 40px 20px 40px 20px;
+}
+.explor-more-playbooks {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+/* .testimonilas-img {
+  display: none !important;
+} */
     
      
    }
@@ -890,6 +916,9 @@ color: #666666;
        .desktop-request-demo {
         display: none !important;
       }
+      .mobile-bg-color {
+        padding: 0px 20px 40px 20px;
+}
     }
    
    </style>
