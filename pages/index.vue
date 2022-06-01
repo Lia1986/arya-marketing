@@ -15,7 +15,7 @@
             {{ inputValue }}
           </span><br> Today's Dynamic Workforce retain motivate
         </h1>
-        <button class="desktop-request-demo bg-yellow-btn rounded border-2 mr-3 border-btn-yellow w-header-btn h-62 2xl:text-18 2xl:py-15 uppercase text-blue-txt font-weight800 text-btn-font-size 3xl:h-54 d-flex items-center justify-center">REQUEST
+        <button class="desktop-request-demo bg-yellow-btn rounded border-2 mr-3 border-btn-yellow w-header-btn h-62 2xl:text-18 2xl:py-15 uppercase text-blue-txt font-weight800 text-btn-font-size 3xl:h-54 d-flex items-center justify-center yellow-button">REQUEST
           A DEMO</button>
         <!-- <button class="border-2 border-btn-yellow text-yellow-txt rounded w-header-btn py-header-btn-padding uppercase font-weight800 text-btn-font-size 2xl:py-15 2xl:text-18">try
           arya</button> -->
@@ -27,7 +27,7 @@
         
       </div>
       <div class="4xl-bg-mobile-bg-color mobile-bg-color">
-     <div class="w-content-width 4xl:w-auto lg:w-80 md:w-80 4xl:w-90 mx-auto">
+     <div class="w-content-width 4xl:w-auto lg:w-80 md:w-80 4xl:w-100 mx-auto">
         <button class="5xl:mb-40 w-100 mobile-request-demo bg-yellow-btn rounded border-2 mr-3 border-btn-yellow w-header-btn h-62 2xl:text-18 2xl:py-15 uppercase text-blue-txt font-weight800 text-btn-font-size 3xl:h-54 d-flex items-center justify-center">REQUEST
           A DEMO</button>
         
@@ -241,17 +241,37 @@
   
      
         <div class="d-flex items-center 4xl:items-start">
-         <div class="w-30">
-           <img src="@/assets/images/testimonilas-img1.png" alt="" class="rounded-full border-8 4xl:border-4 border-solid border-white w-233 md:w-130 4xl:w-82 m-auto testimonilas-img">
+         <div class="w-30 4xl:w-0">
+           <img src="@/assets/images/testimonilas-img1.png" alt="" class="rounded-full border-8 4xl:border-4 border-solid border-white w-233 md:w-130 4xl:w-82 m-auto testimonilas-img-desk">
          </div>
-         <div class="m-auto w-70">
-           <p class="font-weight500 text-26 md:text-18 4xl:text-14 text-title-color">The Arya team's knowledge base regarding incentive compensation has proved critical as we've experimented with and evolved our clinician payroll processes</p>
-           <p class="pb-26 pt-20 text-title-size md:text-18 4xl:text-14"><span class="font-weight700">Matt Harb,</span><span class="font-weight500"> Senior Product Manager, Bellhop</span></p>
-           <img src="@/assets/images/steadymd.png" alt="" class="max-w-226 testimonials-slide-img">
+         <div class="m-auto w-70 4xl:w-90">
+           <p class="font-weight500 text-26 md:text-18 4xl:text-14 text-title-color 4xl:text-center">The Arya team's knowledge base regarding incentive compensation has proved critical as we've experimented with and evolved our clinician payroll processes</p>
+           <div class="d-flex">
+           <img src="@/assets/images/testimonilas-img1.png" alt="" class="rounded-full border-8 4xl:border-4 border-solid border-white w-233 md:w-130 4xl:w-82 m-auto testimonilas-img-mobile">
+          <div class="testimonilas-mobile-content">
+            <p class="pb-26 pt-20 text-title-size md:text-18 4xl:text-14 4xl:pb-15"><span class="font-weight700">Matt Harb,</span><span class="font-weight500"> Senior Product Manager, Bellhop</span></p>
+            <img src="@/assets/images/steadymd.png" alt="" class="max-w-226 testimonials-slide-img">
+             </div>
+           </div>
+         </div>
+        </div>
+        <div class="d-flex items-center 4xl:items-start">
+         <div class="w-30 4xl:w-0">
+           <img src="@/assets/images/testimonilas-img2.png" alt="" class="rounded-full border-8 4xl:border-4 border-solid border-white w-233 md:w-130 4xl:w-82 m-auto testimonilas-img-desk">
+         </div>
+         <div class="m-auto w-70 4xl:w-90">
+           <p class="font-weight500 text-26 md:text-18 4xl:text-14 text-title-color 4xl:text-center">"The team at Arya has deep expertise around incentives that drive alignment between my company and my workforce. By far the best aspect is the level of service they provide"</p>
+           <div class="d-flex">
+           <img src="@/assets/images/testimonilas-img2.png" alt="" class="rounded-full border-8 4xl:border-4 border-solid border-white w-233 md:w-130 4xl:w-82 m-auto testimonilas-img-mobile">
+          <div class="testimonilas-mobile-content">
+            <p class="pb-26 pt-20 text-title-size md:text-18 4xl:text-14 4xl:pb-15"><span class="font-weight700">Shanna Johnson,</span><span class="font-weight500">Chief Executive Officer at Cielo24</span></p>
+            <img src="@/assets/images/cielo.png" alt="" class="max-w-226 testimonials-slide-img">
+             </div>
+           </div>
          </div>
         </div>
 
-       <div class="d-flex items-center 4xl:items-start">
+       <!-- <div class="d-flex items-center 4xl:items-start">
          <div class="w-30">
            <img src="@/assets/images/testimonilas-img2.png" alt="" class="rounded-full border-8 4xl:border-4 border-solid border-white w-233 md:w-130 4xl:w-82 m-auto  testimonilas-img">
          </div>
@@ -260,9 +280,9 @@
            <p class="pb-26 pt-20 text-title-size md:text-18 4xl:text-14"><span class="font-weight700">Shanna Johnson,</span><span class="font-weight500"> Chief Executive Officer at Cielo24</span></p>
            <img src="@/assets/images/cielo.png" alt="" class="max-w-226 testimonials-slide-img">
          </div>
-        </div>
+        </div> -->
 
-        <div class="d-flex items-center 4xl:items-start">
+        <!-- <div class="d-flex items-center 4xl:items-start">
          <div class="w-30">
            <img src="@/assets/images/testimonilas-img3.png" alt="" class="rounded-full border-8 4xl:border-4 border-solid border-white w-233 md:w-130 4xl:w-82 m-auto  testimonilas-img">
          </div>
@@ -270,16 +290,29 @@
            <p class="font-weight500 text-26 md:text-18 4xl:text-14 text-title-color">The Arya team's knowledge base regarding incentive compensation has proved critical as we've experimented with and evolved our clinician payroll processes</p>
              <p class="pb-26 pt-20 text-title-size md:text-18 4xl:text-14"><span class="font-weight700">Anna Pearl W, </span><span class="font-weight500">Director of Special Projects at SteadyMD</span></p>
              <img src="@/assets/images/steadymd.png" alt="" class="max-w-226 testimonials-slide-img">
-           
-             
-          
+           </div>
+        </div> -->
+
+        <div class="d-flex items-center 4xl:items-start">
+         <div class="w-30 4xl:w-0">
+           <img src="@/assets/images/testimonilas-img3.png" alt="" class="rounded-full border-8 4xl:border-4 border-solid border-white w-233 md:w-130 4xl:w-82 m-auto testimonilas-img-desk">
+         </div>
+         <div class="m-auto w-70 4xl:w-90">
+           <p class="font-weight500 text-26 md:text-18 4xl:text-14 text-title-color 4xl:text-center">"The Arya team's knowledge base regarding incentive compensation has proved critical as we've experimented with and evolved our clinician payroll processes"</p>
+           <div class="d-flex">
+           <img src="@/assets/images/testimonilas-img3.png" alt="" class="rounded-full border-8 4xl:border-4 border-solid border-white w-233 md:w-130 4xl:w-82 m-auto testimonilas-img-mobile">
+          <div class="testimonilas-mobile-content">
+            <p class="pb-26 pt-20 text-title-size md:text-18 4xl:text-14 4xl:pb-15"><span class="font-weight700">Anna Pearl W, </span><span class="font-weight500">Chief Executive Officer at Cielo24</span></p>
+            <img src="@/assets/images/steadymd.png" alt="" class="max-w-226 testimonials-slide-img">
+             </div>
+           </div>
          </div>
         </div>
         </VueSlickCarousel>
       </div>
       </div>
      
-    <div class="bg-light-secton 4xl:bg-mobile-bg-color pt-150 pb-610 md:pb-300 4xl:pt-0">
+    <div class="bg-light-secton 4xl:bg-mobile-bg-color pt-150 pb-300 4xl:pb-200 4xl:pt-0">
       <h4 class="uppercase pb-footer-pd-top 4xl:pb-40 text-title-color font-weight800 text-title-size text-center">
         frequently asked questions
       </h4>
@@ -309,7 +342,7 @@ export default {
   data() {
     return {
       testimonials:{
-         autoplay:true,
+        autoplay:true,
         focusOnSelect:true,
         arrows:true,
         dots:false,
@@ -383,8 +416,8 @@ export default {
     {
       "breakpoint": 460,
       "settings": {
-        "slidesToShow": 2,
-        "slidesToScroll": 2,
+        "slidesToShow": 3,
+        "slidesToScroll": 3,
       }
     }
   ]
@@ -677,6 +710,10 @@ border: unset;
   color: #666666;
 
 }
+  .testimonilas-img-mobile {
+    display: none !important;
+  }
+  
 
 .btn-secondary:focus, .btn-secondary:hover {
   box-shadow: unset;
@@ -704,6 +741,7 @@ color: #666666;
  .blue-slide-img-mobile {
     display: none !important;
   }
+
 @media only screen and (max-width: 990px) {
   .mobile-hero-img {
    display: block;
@@ -891,15 +929,24 @@ color: #666666;
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
-/* .testimonilas-img {
+.testimonilas-img-desk {
   display: none !important;
-} */
+}
+ .testimonilas-img-mobile {
+    display: block !important;
+    width: 25%;
+    margin-right: 20px !important;
+    width: 80px;
+  }
+  .testimonilas-mobile-content {
+    width: 75%;
+  }
     
      
    }
     @media only screen and (max-width: 460px) {
       .testimonials-slide-img {
-     width: 74px;
+        width: 84px;
      }
       .mobile-request-demo {
         display: block !important;

@@ -24,8 +24,8 @@
                </div> -->
                 </div>
              <div class="d-flex 4xl:flex-col">
-                <button class="uppercase bg-yellow-btn mr-3 w-footer-sign-in-width rounded text-blue-txt font-weight800 text-btn-font-size h-signin-btn">Sign Up</button>
-                <button class="uppercase px-2.5 text-btn-font-size font-weight800 border-2 border-btn-yellow text-yellow-txt rounded w-footer-sign-in-width h-signin-btn d-flex items-center justify-around 4xl:mt-20">Book a demo <span v-html="$feathericons['message-square'].toSvg()" ></span></button>
+                <button class="uppercase bg-yellow-btn mr-3 w-footer-sign-in-width rounded text-blue-txt font-weight800 text-btn-font-size h-signin-btn yellow-button">Sign Up</button>
+                <button class="uppercase px-2.5 text-btn-font-size font-weight800 border-2 border-btn-yellow text-yellow-txt rounded w-footer-sign-in-width h-signin-btn d-flex items-center justify-around 4xl:mt-20 button-with-icon">Book a demo <span v-html="$feathericons['message-square'].toSvg()" ></span></button>
                </div>
             </div>
            
@@ -34,8 +34,8 @@
        </div>
        <div class="footer-mobile bg-main_bg_color">
             <div class="">
-                <button class="uppercase bg-yellow-btn mr-3 w-footer-sign-in-width rounded text-blue-txt font-weight800 text-btn-font-size h-signin-btn w-100">Sign Up</button>
-                <button class="uppercase px-2.5 text-btn-font-size font-weight800 border-2 border-btn-yellow text-yellow-txt rounded w-footer-sign-in-width h-signin-btn d-flex items-center justify-center w-100 mt-20">Book a demo <span v-html="$feathericons['message-square'].toSvg()" ></span></button>
+                <button class="uppercase bg-yellow-btn mr-3 w-footer-sign-in-width rounded text-blue-txt font-weight800 text-btn-font-size h-signin-btn w-100 yellow-button">Sign Up</button>
+                <button class="uppercase px-2.5 text-btn-font-size font-weight800 border-2 border-btn-yellow text-yellow-txt rounded w-footer-sign-in-width h-signin-btn d-flex items-center justify-center w-100 mt-20 button-with-icon">Book a demo <span v-html="$feathericons['message-square'].toSvg()" ></span></button>
             </div>
             <div class="d-flex logo-row justify-between items-center">
                  <img src="@/assets/icons/logo.svg" alt="" class="w-footer-logo-width 4xl:w-116">

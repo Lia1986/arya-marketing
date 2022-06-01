@@ -18,7 +18,11 @@
                 
               <div class="d-flex items-center">
                    <div class="bg-signin-btn w-signin-btn h-12 d-flex items-center justify-center rounded drop-shadow-md drop-shadow-3xl ml-20">
-                   <button class="uppercase text-white font-weight800">Sign In</button>
+                   <b-button  v-b-modal.reg-modal class="uppercase text-white font-weight800">Sign In</b-button>
+                   <b-modal id="reg-modal" title="BootstrapVue">
+                   <p class="my-4">Hello from modal!</p>
+                   </b-modal>
+                   <!-- <b-button v-b-modal.modal-1>Launch demo modal</b-button> -->
                </div>
                 <span v-html="$feathericons['menu'].toSvg()" class="ml-20" @click="openMobileMenu">
                 </span>

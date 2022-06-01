@@ -20,6 +20,12 @@
    /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
     
   }
+  .btn-secondary {
+     border-color: transparent;
+  }
+  .btn-secondary:focus {
+   border-color: transparent;  
+  }
   .nav-item {
    width: 185px;
    height: 50px;
@@ -31,6 +37,16 @@
   .footer-mobile {
      display: none;
   }
+  .yellow-button:hover {
+   background: transparent;
+   border: 2px solid #FFC800;
+   color: #FFC800;
+ }
+ .button-with-icon:hover {
+   background: #FFC800;
+   border: 2px solid #0266D1;
+   color: #0266D1; 
+ }
 
   @media only screen and (max-width: 460px) {
    .footer-mobile {
@@ -47,5 +63,7 @@
       margin-top: 32px;
       margin-bottom: 32px;
     }
+    
+
   
 }
