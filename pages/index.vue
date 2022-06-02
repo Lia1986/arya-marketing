@@ -59,7 +59,7 @@
           Build smarter compensation, incentives and rewards that delight both your flex workforce and CEO</h3>
         <div class="w-content-width md:w-80 4xl:w-100 mx-auto smarter-compentation">
           <div class="d-flex 4xl:items-center">
-            <div class="pr-60 w-50"><img src="@/assets/images/image1.png" alt=""></div>
+            <div data-aos="fade-up-right" class="pr-60 w-50"><img src="@/assets/images/image1.png" alt=""></div>
             <div class="w-50 d-flex flex-col justify-center">
               <h3 class="text-blue-txt leading-43 2xl:leading-34 font-weight800 text-32 uppercase pb-27 2xl:text-24">
                 A Real-time Pulse<br> OF YOUR WORKFOCE
@@ -141,7 +141,7 @@
     </div>
    <div class="bg-main_bg_color pt-6 4xl:pb-40 blue__slide__section">
     <div class="w-content-width md:w-80 4xl:w-90 mx-auto pt-100 4xl:pt-20">
-       <h4 class="text-yellow-txt px-4 text-48 md:text-32 4xl:text-24 2xl:pb-60 font-weight600">Finally, a better alternative to <br>DIY compensation management</h4>
+       <h4 class="text-yellow-txt text-48 md:text-32 4xl:text-24 2xl:pb-60 font-weight600">Finally, a better alternative to <br>DIY compensation management</h4>
       <VueSlickCarousel v-bind="settings" class="blue-slide-section">
     <div class="px-4">
      <div class="d-flex 4xl:flex-col 4xl:flex-col-reverse 4xl:w-100 items-center pb-6 ">
