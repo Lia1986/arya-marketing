@@ -48,6 +48,71 @@
    color: #0266D1; 
  }
 
+ .collapsed, .not-collapsed {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px !important;
+   background-color: transparent;
+   border-radius: 6px !important;
+   border: unset;
+   text-align: left;
+   
+   
+ }
+ 
+ .not-collapsed {
+ font-style: normal;
+ font-weight: 700;
+ font-size: 20px;
+ line-height: 28px;
+ color: #0266D1 !important;
+ background: transparent !important;
+ border: unset;
+ 
+ }
+ .opene_collapse {
+    margin: 10px 0;
+    border: 1px solid #666666;
+    border-radius: 6px;
+ }
+ 
+ .collapsed {
+    color: #666666;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+ 
+ 
+ 
+ }
+ .collapse  {
+   padding: 0px 20px 20px 20px;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 25px;
+   color: #666666;
+ 
+ }
+
+ .btn-secondary:focus, .btn-secondary:hover {
+   box-shadow: unset;
+   background: transparent;
+   color: #666666;
+ }
+ .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active, .show > .btn-secondary.dropdown-toggle {
+ 
+ background: transparent;
+ color: #666666;
+ 
+ 
+ }
+ 
+ .btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus, .show > .btn-secondary.dropdown-toggle:focus {
+   box-shadow: unset;
+   color: #666666;
+ }
+
   @media only screen and (max-width: 460px) {
    .footer-mobile {
       display: block;

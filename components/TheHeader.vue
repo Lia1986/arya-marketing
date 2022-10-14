@@ -7,9 +7,9 @@
          <div>
              <button class="border-1 rounded-8 w-100 uppercase py-15 border-white mt-20 font-weight700 text-16 text-white">platform</button> 
               <button class="border-1 rounded-8 w-100 uppercase py-15 border-white mt-17 font-weight700 text-16 text-white">why arya</button> 
-              <button class="border-1 rounded-8 w-100 uppercase py-15 border-white mt-17 mb-40 font-weight700 text-16 text-white">about us</button>
+              <a href="about-us"><button class="border-1 rounded-8 w-100 uppercase py-15 border-white mt-17 mb-40 font-weight700 text-16 text-white">about us</button></a>
+              
               <b-button v-b-modal.reg-modal-mobile class="w-100 bg-yellow-btn rounded border-btn-yellow py-15 text-16 uppercase text-blue-txt font-weight700">sign in inin
-               
          </b-button> 
 
            
@@ -42,7 +42,7 @@
             <div class="d-flex justify-between px-10">
                 <a href="" class="uppercase text-white nav-item">Platform</a>
                 <a href="" class="uppercase text-white nav-item">why arya</a>
-                <a href="" class="uppercase text-white nav-item">about us</a>
+                <a href="about-us" class="uppercase text-white nav-item">about us</a>
             </div>
             <div class="bg-signin-btn w-signin-btn d-flex items-center justify-center rounded drop-shadow-md drop-shadow-3xl ml-20">
                  <b-button v-b-modal.reg-modal-mobile class="uppercase text-white font-weight800">Sign In</b-button>

@@ -1,7 +1,6 @@
 <template>
   <div class="mt-sm">
-    <div
-      class="mx-auto d-flex  items-end justify-between 3xl:flex-col 3xl:items-center relative  pt-header-section-spaces lg:pt-100 md:pt-60 sm:pt-26 bg-main_bg_color">
+    <div class="mx-auto d-flex items-end justify-between 3xl:flex-col 3xl:items-center relative pt-header-section-spaces lg:pt-100 md:pt-60 sm:pt-26 bg-main_bg_color">
       <div class="img-section w-header-width1 relative">
         <img src="@/assets/images/header-image.png" alt="" class="absolute  w-80 lg:w-70 bottom-43 3xl:hidden">
      </div>
@@ -270,30 +269,7 @@
            </div>
          </div>
         </div>
-
-       <!-- <div class="d-flex items-center 4xl:items-start">
-         <div class="w-30">
-           <img src="@/assets/images/testimonilas-img2.png" alt="" class="rounded-full border-8 4xl:border-4 border-solid border-white w-233 md:w-130 4xl:w-82 m-auto  testimonilas-img">
-         </div>
-         <div class="m-auto w-70">
-           <p class="font-weight500 text-26 md:text-18 4xl:text-14 text-title-color">"The team at Arya has deep expertise around incentives that drive alignment between my company and my workforce. By far the best aspect is the level of service they provide"</p>
-           <p class="pb-26 pt-20 text-title-size md:text-18 4xl:text-14"><span class="font-weight700">Shanna Johnson,</span><span class="font-weight500"> Chief Executive Officer at Cielo24</span></p>
-           <img src="@/assets/images/cielo.png" alt="" class="max-w-226 testimonials-slide-img">
-         </div>
-        </div> -->
-
-        <!-- <div class="d-flex items-center 4xl:items-start">
-         <div class="w-30">
-           <img src="@/assets/images/testimonilas-img3.png" alt="" class="rounded-full border-8 4xl:border-4 border-solid border-white w-233 md:w-130 4xl:w-82 m-auto  testimonilas-img">
-         </div>
-         <div class="m-auto w-70">
-           <p class="font-weight500 text-26 md:text-18 4xl:text-14 text-title-color">The Arya team's knowledge base regarding incentive compensation has proved critical as we've experimented with and evolved our clinician payroll processes</p>
-             <p class="pb-26 pt-20 text-title-size md:text-18 4xl:text-14"><span class="font-weight700">Anna Pearl W, </span><span class="font-weight500">Director of Special Projects at SteadyMD</span></p>
-             <img src="@/assets/images/steadymd.png" alt="" class="max-w-226 testimonials-slide-img">
-           </div>
-        </div> -->
-
-        <div class="d-flex items-center 4xl:items-start">
+          <div class="d-flex items-center 4xl:items-start">
          <div class="w-30 4xl:w-0">
            <img src="@/assets/images/testimonilas-img3.png" alt="" class="rounded-full border-8 4xl:border-4 border-solid border-white w-233 md:w-130 4xl:w-82 m-auto testimonilas-img-desk">
          </div>
@@ -664,7 +640,7 @@ export default {
 }
 
 
-.collapsed, .not-collapsed {
+/* .collapsed, .not-collapsed {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -709,13 +685,13 @@ border: unset;
   line-height: 25px;
   color: #666666;
 
-}
+} */
   .testimonilas-img-mobile {
     display: none !important;
   }
   
 
-.btn-secondary:focus, .btn-secondary:hover {
+/* .btn-secondary:focus, .btn-secondary:hover {
   box-shadow: unset;
   background: transparent;
   color: #666666;
@@ -731,7 +707,7 @@ color: #666666;
 .btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus, .show > .btn-secondary.dropdown-toggle:focus {
   box-shadow: unset;
   color: #666666;
-}
+} */
 .mobile-hero-img {
   display: none;
 }
@@ -742,12 +718,7 @@ color: #666666;
     display: none !important;
   }
 
-@media only screen and (max-width: 990px) {
-  .mobile-hero-img {
-   display: block;
-   margin-bottom: 24px;
-  }
-}
+
 
 
 @media only screen and (max-width: 1700px) {
@@ -757,6 +728,10 @@ color: #666666;
 }
 
 @media only screen and (max-width:990px) {
+   .mobile-hero-img {
+   display: block;
+   margin-bottom: 24px;
+  }
   .playbook-item {
    width: 48.5%;
    margin-right: 0;
